@@ -1,0 +1,19 @@
+{
+    "remotePath": "./",
+    "host": "ftp-shift-two.alwaysdata.net",
+    "username": "shift-two_portfolio",
+    "password": "Utilisateur FTP shift-two_portfolio",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ]
+}
