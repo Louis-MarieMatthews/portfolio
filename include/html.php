@@ -89,7 +89,9 @@ function display_footer() {
             });
         });
         $(document).ready(function() {
-            $('#fullpage').fullpage();
+            $('#fullpage').fullpage({
+              anchors: ['top', 'community', 'level-design-and-blender', 'programming', 'contact']
+            });
         });
     </script>
     <?php

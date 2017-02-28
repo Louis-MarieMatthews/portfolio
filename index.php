@@ -8,13 +8,13 @@
         <?php display_main_navbar( 'home' ) ?>
         <div id="fullpage">
             <div class="section">
-                <div id="top" class="container">
+                <div class="container">
                     <?php display_carousel() ?>
                 </div>
             </div>
             <div class="section">
                 <div class="container">
-                    <h1 id="community">Community</h1>
+                    <h1>Community</h1>
                     <p>As I was learning, and later practising level design, I noticed level designers and resources for Half-Life 1, such as tutorials, were scattered 
                     accross a variety of small websites, threateting the community and the creations of everywhone. Beside, it was sometimes hard for beginners to know
                     where to start and what community to join.</p>
@@ -27,7 +27,7 @@
             </div>
             <div class="section">
                 <div class="container">
-                    <h1 id="level-design-and-blender">Level Design & Blender</h1>
+                    <h1>Level Design & Blender</h1>
                     <p>My first experience with 3D modelisation goes back in 2010. This is when I discovered how 3D objects and environments in video games where made thanks to a tutorial 
                     of OpenClassrooms.</p>
                     <p>I became passionate about creating my own 3D worlds and this culminated in the release of my very own video game, Shift-Two, in April 2011.
@@ -47,7 +47,7 @@
             </div>
             <div class="section">
                 <div class="container">
-                    <h1 id="programming">Programming</h1>
+                    <h1>Programming</h1>
                     <p>The first programming language I learnt was PHP, reading a tutorial of OpenClassrooms.
                     Its simple syntax made it a perfect introduction to programming languages for me.
                     Although I did not learn it for any specific purposes, it would later prove extremely useful as it allowed me to be prepared for some university assignments, 
@@ -61,7 +61,7 @@
             
             <div class="section">
                 <div class="container">
-                    <h1 id="contact">Contact</h1>
+                    <h1>Contact</h1>
                     <ul>
                         <li><a href="https://github.com/Louis-MarieMatthews">GitHub</li>
                         <li><a href="http://stackoverflow.com/users/7089212/louis-marie-matthews">Stack Overflow</li>
