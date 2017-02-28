@@ -14,13 +14,28 @@ function display_head( $title ) {
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="style.css" />
-
     <link rel="stylesheet" type="text/css" href="fullpagejs/jquery.fullpage.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
 
 
 
     <?php
+}
+
+
+
+function display_fb_js_sdk() {
+  ?>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=775683239250073";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <?php
 }
 
 
@@ -101,4 +116,12 @@ function display_footer() {
         });
     </script>
     <?php
+}
+
+
+
+function display_fb_page() {
+  ?>
+  <div class="fb-page" data-href="https://www.facebook.com/halflifeandmods/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/halflifeandmods/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/halflifeandmods/">Half-Life and mods</a></blockquote></div>
+  <?php
 }

@@ -1,3 +1,33 @@
 body {
-    margin-top: 1em;
-}
+  margin-top: 1em; }
+
+.social {
+  padding: 0; }
+
+.social-link {
+  color: white; }
+
+.social-link:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1; }
+
+.social_link, .twitter a, .googleplus a, .youtube a {
+  display: block;
+  font-family: "Segoe UI Black", calibri;
+  height: 3em;
+  line-height: 3em;
+  font-size: 5em;
+  text-align: center;
+  opacity: 0.9; }
+
+.twitter a {
+  background: #0c82c9; }
+
+.googleplus a {
+  background: #db4437; }
+
+.youtube a {
+  background: #e62117; }
+
+/*# sourceMappingURL=style.css.map */
