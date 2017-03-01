@@ -106,11 +106,12 @@ function display_footer() {
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 anchors: ['top', 'community', 'level-design-and-blender', 'programming', 'contact'],
-                afterLoad: function(anchorLink, index){
+                afterLoad: function(anchorLink, index) {
                     var loadedSection = $(this);
                     $('li.active').removeClass('active');
                     $("a[href='#" + anchorLink + "']").parent().addClass('active');
-                    console.log( anchorLink );
+
+                    $( '[data-anchor="' + anchorLink + '"]' ).css( 'background', 'red' );
                 }
             });
         });

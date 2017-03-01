@@ -8,12 +8,12 @@
         <?php display_fb_js_sdk() ?>
         <?php display_main_navbar( 'home' ) ?>
         <div id="fullpage">
-            <div class="section">
+            <div class="section home-section">
                 <div class="container">
                     <?php display_carousel() ?>
                 </div>
             </div>
-            <div class="section">
+            <div class="section community-section">
                 <div class="container">
                     <h1>Community</h1>
                     <div class="row">
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section">
+            <div class="section level-design-and-blender-section">
                 <div class="container">
                     <h1>Level Design & Blender</h1>
                     <p>My first experience with 3D modelisation goes back in 2010. This is when I discovered how 3D objects and environments in video games where made thanks to a tutorial 
@@ -58,7 +58,7 @@
                     as some sort of landmarks in order to get the dimensions of my walls, floors and ceilings correct.</p>
                 </div>
             </div>
-            <div class="section">
+            <div class="section programming-section">
                 <div class="container">
                     <h1>Programming</h1>
                     <p>The first programming language I learnt was PHP, reading a tutorial of OpenClassrooms.
@@ -72,7 +72,7 @@
                 </div>
             </div>
             
-            <div class="section">
+            <div class="section contact-section">
                 <div class="container">
                     <h1>Contact</h1>
                     <ul>

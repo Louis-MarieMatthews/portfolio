@@ -39,3 +39,27 @@ body {
     @extend .social_link;
     background: rgb(230, 33, 23);
 }
+
+.section {
+    transition: background 2s linear;
+}
+
+.home-section {
+    background: rgba(100, 200, 100, 0.8);
+}
+
+.community-section {
+    background: rgba(200, 100, 100, 0.8);
+}
+
+.level-design-and-blender-section {
+    background: rgba(100, 150, 150, 0.8);
+}
+
+.programming-section {
+    background: rgba(150, 100, 150, 0.8);
+}
+
+.contact-section {
+    background: rgba(150, 150, 100, 0.8);
+}
