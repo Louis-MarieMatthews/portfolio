@@ -34,7 +34,7 @@
                                 <div class="col-xs-4 social youtube"><a class="social-link" href="https://www.youtube.com/channel/UCNMCIRURostCQWVxD8iLngA">Youtube</a></div>
                             </div>
                         </div>
-                        <div class="col-xs-hidden col-sm-4">
+                        <div class="hidden-xs col-sm-4">
                             <?php display_fb_page() ?>
                         </div>
                     </div>
