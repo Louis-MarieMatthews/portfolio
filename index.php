@@ -76,12 +76,22 @@
                 <div class="container">
                     <h1>Contact</h1>
                     <ul>
-                        <li><a href="https://github.com/Louis-MarieMatthews">GitHub</li>
-                        <li><a href="http://stackoverflow.com/users/7089212/louis-marie-matthews">Stack Overflow</li>
-                        <li><a href="https://www.linkedin.com/in/louis-marie-matthews/">LinkedIn</li>
+                        <li><a href="https://github.com/Louis-MarieMatthews">GitHub</a></li>
+                        <li><a href="http://stackoverflow.com/users/7089212/louis-marie-matthews">Stack Overflow</a></li>
+                        <li><a href="https://www.linkedin.com/in/louis-marie-matthews/">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="home-background">
+        </div>
+        <div class="community-background">
+        </div>
+        <div class="level-design-and-blender-background">
+        </div>
+        <div class="programming-background">
+        </div>
+        <div class="contact-background">
         </div>
         <?php display_footer() ?>
     </body>

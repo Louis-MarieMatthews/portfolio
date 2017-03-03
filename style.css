@@ -34,18 +34,42 @@ body {
   transition: background 2s linear; }
 
 .home-section {
-  background: rgba(100, 200, 100, 0.8); }
+  background: rgba(100, 200, 100, 0.4); }
 
 .community-section {
-  background: rgba(200, 100, 100, 0.8); }
+  background: rgba(200, 100, 100, 0.4); }
 
 .level-design-and-blender-section {
-  background: rgba(100, 150, 150, 0.8); }
+  background: rgba(100, 150, 150, 0.4); }
 
 .programming-section {
-  background: rgba(150, 100, 150, 0.8); }
+  background: rgba(150, 100, 150, 0.4); }
 
 .contact-section {
-  background: rgba(150, 150, 100, 0.8); }
+  background: rgba(150, 150, 100, 0.4); }
+
+.portfolio-background, .community-background, .level-design-and-blender-background, .programming-background, .contact-background, .home-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+  transition: opacity 2s linear;
+  z-index: -1; }
+
+.community-background {
+  background-image: url("img/half-life-and-mods-cover.jpg"); }
+
+.level-design-and-blender-background {
+  background-image: url("img/mapping-example.jpg"); }
+
+.programming-background {
+  background-image: url("img/code-example.jpg"); }
+
+.home-background {
+  background-image: url("img/louis-marie.jpg"); }
 
 /*# sourceMappingURL=style.css.map */

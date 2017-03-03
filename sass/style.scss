@@ -40,26 +40,64 @@ body {
     background: rgb(230, 33, 23);
 }
 
+$opacity: 0.4;
 .section {
     transition: background 2s linear;
 }
 
 .home-section {
-    background: rgba(100, 200, 100, 0.8);
+    background: rgba(100, 200, 100, $opacity);
 }
 
 .community-section {
-    background: rgba(200, 100, 100, 0.8);
+    background: rgba(200, 100, 100, $opacity);
 }
 
 .level-design-and-blender-section {
-    background: rgba(100, 150, 150, 0.8);
+    background: rgba(100, 150, 150, $opacity);
 }
 
 .programming-section {
-    background: rgba(150, 100, 150, 0.8);
+    background: rgba(150, 100, 150, $opacity);
 }
 
 .contact-section {
-    background: rgba(150, 150, 100, 0.8);
+    background: rgba(150, 150, 100, $opacity);
+}
+
+.portfolio-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+    transition: opacity 2s linear;
+    z-index: -1;
+}
+
+.community-background {
+    @extend .portfolio-background;
+    background-image: url("img/half-life-and-mods-cover.jpg");
+}
+
+.level-design-and-blender-background {
+    @extend .portfolio-background;
+    background-image: url("img/mapping-example.jpg");
+}
+
+.programming-background {
+    @extend .portfolio-background;
+    background-image: url("img/code-example.jpg");
+}
+
+.contact-background {
+    @extend .portfolio-background;
+}
+
+.home-background {
+    @extend .portfolio-background;
+    background-image: url("img/louis-marie.jpg");
 }
