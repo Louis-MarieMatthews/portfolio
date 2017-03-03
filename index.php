@@ -10,12 +10,14 @@
         <div id="fullpage">
             <div class="section home-section">
                 <div class="container">
-                    <?php display_carousel() ?>
+                    <h1 class="section-title">Hi</h1>
+                    <p>My name is LM Matthews, an Applied Computing: Human Computer Interaction student at the University of Dundee, Scotland.</p>
+                    <p>Like some other fellows, I taught myself most of my computing skills. However, these are not limited to web development and coding. I have as well experience in 3D mapping and modelling and I released my very own mini video game.</p>
                 </div>
             </div>
             <div class="section community-section">
                 <div class="container">
-                    <h1>Community</h1>
+                    <h1 class="section-title">Community</h1>
                     <div class="row">
                         <div class="col-xs-12 col-sm-8">
                             <p>As I was learning, and later practising level design, I noticed level designers and resources for Half-Life 1, such as tutorials, were scattered 
@@ -40,7 +42,7 @@
             </div>
             <div class="section level-design-and-blender-section">
                 <div class="container">
-                    <h1>Level Design & Blender</h1>
+                    <h1 class="section-title">Level Design & Blender</h1>
                     <p>My first experience with 3D modelisation goes back in 2010. This is when I discovered how 3D objects and environments in video games where made thanks to a tutorial 
                     of OpenClassrooms.</p>
                     <p>I became passionate about creating my own 3D worlds and this culminated in the release of my very own video game, Shift-Two, in April 2011.
@@ -60,7 +62,7 @@
             </div>
             <div class="section programming-section">
                 <div class="container">
-                    <h1>Programming</h1>
+                    <h1 class="section-title">Programming</h1>
                     <p>The first programming language I learnt was PHP, reading a tutorial of OpenClassrooms.
                     Its simple syntax made it a perfect introduction to programming languages for me.
                     Although I did not learn it for any specific purposes, it would later prove extremely useful as it allowed me to be prepared for some university assignments, 
@@ -74,7 +76,7 @@
             
             <div class="section contact-section">
                 <div class="container">
-                    <h1>Contact</h1>
+                    <h1 class="section-title">Contact</h1>
                     <ul>
                         <li><a href="https://github.com/Louis-MarieMatthews">GitHub</a></li>
                         <li><a href="http://stackoverflow.com/users/7089212/louis-marie-matthews">Stack Overflow</a></li>

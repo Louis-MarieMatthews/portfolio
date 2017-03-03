@@ -40,9 +40,19 @@ body {
     background: rgb(230, 33, 23);
 }
 
-$opacity: 0.4;
+$opacity: 0.6;
 .section {
     transition: background 2s linear;
+    color: white;
+    font-weight: bold;
+    font-family: Caladea;
+}
+
+.section-title {
+    font-size: 5em;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: white;
 }
 
 .home-section {
@@ -74,7 +84,7 @@ $opacity: 0.4;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 0;
-    transition: opacity 2s linear;
+    transition: opacity 0.5s linear;
     z-index: -1;
 }
 
