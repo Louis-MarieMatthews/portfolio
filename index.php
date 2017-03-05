@@ -58,6 +58,7 @@
             
             <div class="section contact-section">
                 <div class="container">
+                    <h1 class="section-title">Contact</h1>
                     <ul>
                         <li><a href="https://github.com/Louis-MarieMatthews">GitHub</a></li>
                         <li><a href="http://stackoverflow.com/users/7089212/louis-marie-matthews">Stack Overflow</a></li>
