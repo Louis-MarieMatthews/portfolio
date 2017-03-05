@@ -44,7 +44,7 @@
             </div>
             <div class="section programming-section">
                 <div class="container">
-                    <h1 class="section-title programming-section-title">Patterns. Efficiency. Readibiliy.</h1>
+                    <h1 class="section-title">Patterns. Efficiency. Readibiliy.</h1>
                     <p>The first programming language I learnt was PHP, reading a tutorial of OpenClassrooms.
                     Its simple syntax made it a perfect introduction to programming languages for me.
                     Although I did not learn it for any specific purposes, it would later prove extremely useful as it allowed me to be prepared for some university assignments, 

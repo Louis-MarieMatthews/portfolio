@@ -12,6 +12,11 @@ $opacity: 0.6;
     //font-family: Cambria, Candara, Constantia, "DejaVu Serif", Gabriola, "Gentium Basic", Georgia, "Liberation Serif", "Linux Biolinum G", "Linux Libertine Display G", "Linux Libertine G", "Palatino Linotype", "PT Serif", ;
 }
 
+.section-title {
+    text-align: center;
+    font-size: 4em;
+}
+
 .home-section {
     background: rgba(100, 200, 100, $opacity);
 }
@@ -46,6 +51,4 @@ $opacity: 0.6;
 
 
 .programming-section-title {
-    text-align: center;
-    font-size: 4em;
 }

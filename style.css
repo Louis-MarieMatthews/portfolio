@@ -11,6 +11,10 @@
   font-weight: bold;
   font-family: "Sitka Heading"; }
 
+.section-title {
+  text-align: center;
+  font-size: 4em; }
+
 .home-section {
   background: rgba(100, 200, 100, 0.6); }
 
@@ -33,10 +37,6 @@
 /**
  * Programming
  */
-.programming-section-title {
-  text-align: center;
-  font-size: 4em; }
-
 body {
   margin-top: 1em; }
 
