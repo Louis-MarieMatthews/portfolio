@@ -1,0 +1,51 @@
+/**
+ * Section
+ * v1.0
+ */
+
+$opacity: 0.6;
+.section {
+    transition: background 2s linear;
+    color: white;
+    font-weight: bold;
+    font-family: "Sitka Heading";
+    //font-family: Cambria, Candara, Constantia, "DejaVu Serif", Gabriola, "Gentium Basic", Georgia, "Liberation Serif", "Linux Biolinum G", "Linux Libertine Display G", "Linux Libertine G", "Palatino Linotype", "PT Serif", ;
+}
+
+.home-section {
+    background: rgba(100, 200, 100, $opacity);
+}
+
+.level-design-and-blender-section {
+    background: rgba(100, 150, 150, $opacity);
+}
+
+.programming-section {
+    background: rgba(150, 100, 150, $opacity);
+}
+
+.contact-section {
+    background: rgba(150, 150, 100, $opacity);
+}
+
+
+/**
+ * Level Design & Blender
+ */
+
+
+.level-design-and-blender-section {
+    background: url("img/geo-shapes-black-1280b.jpg");
+    background-size: 100% 100%;
+}
+
+
+/**
+ * Programming
+ */
+
+
+.programming-section-title {
+    text-align: center;
+    font-size: 4em;
+}
