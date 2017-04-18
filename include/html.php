@@ -96,11 +96,3 @@ function display_footer() {
     </script>
     <?php
 }
-
-
-
-function display_fb_page() {
-  ?>
-  <div class="fb-page" data-href="https://www.facebook.com/halflifeandmods/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/halflifeandmods/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/halflifeandmods/">Half-Life and mods</a></blockquote></div>
-  <?php
-}
