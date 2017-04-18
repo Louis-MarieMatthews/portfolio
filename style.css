@@ -18,10 +18,10 @@
 
 .section-heading {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0;
   margin-right: 15%;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   text-align: right;
   transition: margin-right 1s, opacity 1.5s; }
 
