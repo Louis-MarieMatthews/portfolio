@@ -10,7 +10,6 @@
         <div id="fullpage">
             <div class="section home-section">
                 <div class="container">
-                    <h1 class="section-title">Louis-Marie Matthews</h1>
                     <p>Second-year student in Applied Computing: Human Computer Interaction at the University of Dundee, Scotland.</p>
                 </div>
             </div>
