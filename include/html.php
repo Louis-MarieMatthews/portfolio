@@ -18,8 +18,6 @@ function display_head( $title ) {
 
     <link rel="stylesheet" href="style.css" />
 
-
-
     <?php
 }
 
