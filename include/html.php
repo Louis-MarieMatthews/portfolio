@@ -66,28 +66,6 @@ function display_main_navbar() {
 
 
 
-function display_carousel() {
-  // TODO: accessibility (img)
-    ?>
-    <div class="owl-carousel">
-        <figure>
-            <img src="img/half-life-and-mods-cover.jpg" />
-            <figcaption>Co-leader of an online community project primarily aiming at delivering level-design video-tutorials</figcaption>
-        </figure>
-        <figure>
-          <img src="img/code-example-cropped.jpg" />
-          <figcaption>Confident with PHP, Java, Python, C++ and ASP.NET</figcaption>
-        </figure>
-        <figure>
-          <img src="img/mapping-example-2-cropped.jpg" />
-          <figcaption>+7 years of experience in level design and +2 years of experience with Blender</figcaption>
-        </figure>
-    </div>
-    <?php
-}
-
-
-
 function display_footer() {
     ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
