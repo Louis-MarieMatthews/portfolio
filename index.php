@@ -5,7 +5,6 @@
         <?php display_head( 'Home' ) ?>
     </head>
     <body>
-        <?php display_fb_js_sdk() ?>
         <?php display_main_navbar( 'home' ) ?>
         <div id="fullpage">
             <div id="home" class="section home-section">
