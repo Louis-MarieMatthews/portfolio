@@ -16,7 +16,7 @@
                     <ul>
                         <li><a href="mailto:louismarie.matthews@outlook.fr">Email</a></li>
                         <li><a href="https://github.com/Louis-MarieMatthews">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/louis-marie-matthews/">LinkedIn</li>
+                        <li><a href="https://www.linkedin.com/in/louis-marie-matthews/">LinkedIn</a></li>
                         <li><a href="http://stackexchange.com/users/9540988/louis-marie-matthews?tab=top">Stack Exchange</a></li>
                     </ul>
                 </div>

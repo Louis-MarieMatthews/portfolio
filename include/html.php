@@ -71,6 +71,11 @@ function display_footer() {
                     $('#pf-' + anchorLink + '-section-heading').addClass ('active-pf-section');
                     $('.active-pf-section').css('margin-right', '5%');
                     $('.active-pf-section').css('opacity', 1);
+                    var R = Math.floor(Math.random() * 255);
+                    var G = Math.floor(Math.random() * 255);
+                    var B = Math.floor(Math.random() * 255);
+                    console.log('rgb(' + R + ', ' + G + ', ' + B + ')');
+                    $('.pf-section-content').css('border-color', 'rgb(' + R + ', ' + G + ', ' + B + ')');
                     /*
                     $("a[href='#" + anchorLink + "']").parent().addClass('active');
 
