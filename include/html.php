@@ -60,16 +60,16 @@ function display_footer() {
     <script>
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                anchors: ['home', 'level-design-and-blender', 'programming'],
+                anchors: ['home', 'programming', 'thoroughness', 'level-design-and-blender'],
                 afterLoad: function(anchorLink, index) {
                     var loadedSection = $(this);
-                    $('li.active').removeClass('active');
+                    $('li.active').removeClass('active');/*
                     $("a[href='#" + anchorLink + "']").parent().addClass('active');
 
                     var backgroundDiv = '.' + anchorLink + '-background';
                     $( '.active-background' ).css( 'opacity', 0 );
                     $( backgroundDiv ).css( 'opacity', 1 );
-                    $( backgroundDiv ).addClass( 'active-background' );
+                    $( backgroundDiv ).addClass( 'active-background' );*/
                 }
             });
         });
