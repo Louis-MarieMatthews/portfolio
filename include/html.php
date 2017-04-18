@@ -59,11 +59,19 @@ function display_footer() {
     <script type="text/javascript" src="fullpagejs/jquery.fullpage.min.js"></script>
     <script>
         $(document).ready(function() {
+            $('.section-heading').css('opacity', '0.5');
             $('#fullpage').fullpage({
-                anchors: ['home', 'programming', 'thoroughness', 'level-design-and-blender'],
+                anchors: ['me', 'shift-two', 'dura', 'java-and-php', 'twhl-hub'],
                 afterLoad: function(anchorLink, index) {
                     var loadedSection = $(this);
-                    $('li.active').removeClass('active');/*
+                    $('li.active').removeClass('active');
+                    $('.active-pf-section').removeAttr('style');
+                    $('.active-pf-section').css('opacity', 0.5);
+                    $('.active-pf-section').removeClass('active-pf-section');
+                    $('#pf-' + anchorLink + '-section-heading').addClass ('active-pf-section');
+                    $('.active-pf-section').css('margin-right', '5%');
+                    $('.active-pf-section').css('opacity', 1);
+                    /*
                     $("a[href='#" + anchorLink + "']").parent().addClass('active');
 
                     var backgroundDiv = '.' + anchorLink + '-background';

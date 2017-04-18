@@ -3,60 +3,24 @@
  * v1.0
  */
 
-$opacity: 0.6;
-.section {
-    transition: background 2s linear;
-    color: white;
-    font-weight: bold;
-    font-family: "Sitka Heading";
-    //font-family: Cambria, Candara, Constantia, "DejaVu Serif", Gabriola, "Gentium Basic", Georgia, "Liberation Serif", "Linux Biolinum G", "Linux Libertine Display G", "Linux Libertine G", "Palatino Linotype", "PT Serif", ;
-}
-
-.section-title {
-    text-align: center;
-    font-size: 4em;
-}
-
-.home-section {
-    background: rgba(100, 200, 100, $opacity);
-}
-
-.level-design-and-blender-section {
-    background: rgba(100, 150, 150, $opacity);
-}
-
-.programming-section {
-    background: rgba(150, 100, 150, $opacity);
-}
-
-.contact-section {
-    background: rgba(150, 150, 100, $opacity);
-}
-
 .pf-section-content {
-    padding-top: 5rem;
+    font-family: "Sitka Heading";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 5.5rem;
     background: black;
     padding-left: 5%;
     width: 80%;
     height: 100%;
 }
 
-
-/**
- * Level Design & Blender
- */
-
-
-.level-design-and-blender-section {
-    background: url("img/geo-shapes-black-1280b.jpg");
-    background-size: 100% 100%;
-}
-
-
-/**
- * Programming
- */
-
-
-.programming-section-title {
+.section-heading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-right: 15%;
+    margin-bottom: 0.5rem;
+    text-align: right;
+    transition: margin-right 1s, opacity 1.5s;
 }
