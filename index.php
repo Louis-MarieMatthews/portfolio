@@ -29,17 +29,6 @@
                     <p>I am passionate about creating virtual worlds, this is the reason why I taught myself Blender and created several maps and a mod (a 3D video game using the engine and some of the resources of another video game).</p>
                 </div>
             </div>
-            <div class="section contact-section">
-                <div class="container">
-                    <h1 class="section-title">Contact</h1>
-                    <div class="row">
-                        <div class="col-xs-4"><img width=100% height=auto src="img/GitHub-Mark-120px-plus.png" /></div>
-                        <div class="col-xs-4"><img width=100% height=auto src="img/so-icon.png" /></div>
-                        <div class="col-xs-4"><img width=100% height=auto src="img/In-2C-128px-TM.png" /></div>
-                    </div>
-                    <p>GITHUB®, the GITHUB® logo design, OCTOCAT® and the OCTOCAT® logo design are exclusive trademarks registered in the United States by GitHub, Inc. The Stack Exchange name and logos are trademarks of Stack Exchange Inc. The names and logos for sites and products operating on the Stack Exchange network are also trademarks of Stack Exchange Inc. LinkedIn, the LinkedIn logo, the IN logo and InMail are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries. </p>
-                </div>
-            </div>
         </div>
         <?php display_footer() ?>
     </body>

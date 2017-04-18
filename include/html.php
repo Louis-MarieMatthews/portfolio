@@ -56,7 +56,6 @@ function display_main_navbar() {
             <li class="active"><a href="#home">Home</a></li>
             <li><a href="#level-design-and-blender">Level Design & Blender</a></li>
             <li><a href="#programming">Programming</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -75,7 +74,7 @@ function display_footer() {
     <script>
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                anchors: ['home', 'level-design-and-blender', 'programming', 'contact'],
+                anchors: ['home', 'level-design-and-blender', 'programming'],
                 afterLoad: function(anchorLink, index) {
                     var loadedSection = $(this);
                     $('li.active').removeClass('active');
