@@ -39,8 +39,9 @@ function display_main_navbar() {
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#level-design-and-blender">Level Design & Blender</a></li>
             <li><a href="#programming">Programming</a></li>
+            <li><a href="#thoroughness">Programming</a></li>
+            <li><a href="#level-design-and-blender">Level Design & Blender</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
