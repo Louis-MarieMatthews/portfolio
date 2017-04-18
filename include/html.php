@@ -73,11 +73,6 @@ function display_footer() {
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="fullpagejs/jquery.fullpage.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $(".owl-carousel").owlCarousel({
-              items: 1
-            });
-        });
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 anchors: ['home', 'level-design-and-blender', 'programming', 'contact'],
