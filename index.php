@@ -5,7 +5,7 @@
         <?php display_head( 'Louis-Marie Matthews' ) ?>
     </head>
     <body>
-        <?php display_main_navbar( 'home' ) ?>
+        <?php display_main_navbar() ?>
         <main id="fullpage">
             <section class="section me-section" aria-labelledby="pf-me-section-heading">
                 <div class="pf-section-content">
