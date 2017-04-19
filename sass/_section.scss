@@ -11,7 +11,6 @@
     padding-top: 5.5rem;
     background: rgb(15, 15, 15);
     padding-left: 2%;
-    //padding-right: 2%;
     width: 80%;
     height: 100%;
     border-right: 1rem solid black;
@@ -23,6 +22,28 @@
     margin: 0.5rem;
 }
 
+@media (min-width: 768px) {
+    .pf-section-content {
+        width: 50%;
+    }
+
+    .pf-section-content p {
+        margin: 1.5rem;
+    }
+}
+@media (min-width: 1280px) {
+    .pf-section-content {
+        width: 30%;
+    }
+    .pf-section-content {
+        font-size: 1.7rem;
+    }
+}
+@media (min-width: 1920px) {
+    .pf-section-content {
+        font-size: 2.5rem;
+    }
+}
 
 /**
  * Navigation Unordered list
@@ -53,6 +74,31 @@
     color: white !important; 
 }
 
+@media (min-width: 768px) {
+    .pf-section-nav-ul {
+        right: 50%;
+    }
+    .pf-section-nav-ul-link {
+        font-size: 3.5rem;
+        padding-left: 4.0rem;
+    }
+}
+@media (min-width: 1280px) {
+    .pf-section-nav-ul {
+        right: 70%;
+    }
+    .pf-section-nav-ul-link {
+        font-size: 2.0rem;
+        padding-left: 2.5rem;
+    }
+}
+@media (min-width: 1920px) {
+    .pf-section-nav-ul-link {
+        font-size: 3.0rem;
+        padding-left: 3.5rem;
+    }
+}
+
 
 /**
  * Section Heading
@@ -69,56 +115,53 @@
     transition: margin-right 1s, opacity 1.5s;
 }
 
-.section {
-    background-size: 100% 100%;
+@media (min-width: 768px) {
+    .section-heading {
+        font-size: 5rem;
+    }
 }
 
 
-
 /**
- * Me Section
+ * Backgrounds
  */
 
+
+.section {
+    background-size: auto 100%;
+}
+
+@media (min-width: 1280px) {
+    .section {
+        background-size: 100% 100%;
+    }
+}
+
+// Me
 
 .me-section {
     background-image: url("img/louis-marie.jpg");
 }
 
-
-/**
- * Shift-Two Section
- */
-
+// Shift-Two
 
 .shift-two-section {
     background-image: url("http://media.moddb.com/images/mods/1/18/17510/mdb2.JPG");
 }
 
-
-/**
- * DURA Section
- */
+// DURA
 
  .dura-section {
      background-image: url("img/dura.jpg");
  }
 
-
-
-/**
- * Java and PHP Section
- */
-
+// JAVA & PHP
 
 .java-and-php-section {
     background-image: url("img/code-example-cropped.jpg");
 }
 
-
-/**
- * TWHL Hub
- */
-
+// TWHL HUB
 
 .twhl-hub-section {
     background-image: url("img/mapping-example.jpg");
