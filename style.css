@@ -31,12 +31,16 @@
 
   .pf-section-content p {
     margin: 1.5rem; } }
-@media (min-width: 1280px) {
+@media (min-width: 1280px) and (min-height: 600px) {
   .pf-section-content {
     width: 30%; }
 
   .pf-section-content {
-    font-size: 1.7rem; } }
+    font-size: 1.9rem;
+    line-height: 2.0rem; }
+
+  .pf-section-content p {
+    margin: 1.5rem; } }
 @media (min-width: 1920px) {
   .pf-section-content {
     font-size: 2.5rem; } }
