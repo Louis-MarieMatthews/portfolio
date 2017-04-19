@@ -41,7 +41,7 @@
                     <p>I've used PHP and Java for several university assignments, which can be found on Github. These are: </p>
                     <ul>
                         <li>A <a href="https://github.com/Louis-MarieMatthews/EventQueueExample">Java console program</a> which makes use of threads to explain the event queue design pattern.</li>
-                        <li>A <a href="https://github.com/Louis-MarieMatthews/privateinstagrim">Java Website</a> which is a refactored version of <a href="https://github.com/acobley/instagrim">Instragrim</a>, with multiple bugs fixed and new features.</li>
+                        <li>A <a href="https://github.com/Louis-MarieMatthews/privateinstagrim">Java Website</a> which is a refactored version of <a href="https://github.com/acobley/instagrim">Instagrim</a>, with multiple bugs fixed and new features.</li>
                         <li>A <a href="https://github.com/Louis-MarieMatthews/ac32006_assignment1">PHP Website</a> made as a team.</li>
                     </ul>
                 </div>
