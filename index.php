@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php display_head( 'Louis-Marie Matthews' ) ?>
+        <?php display_head( 'Louis-Marie Matthews\'s Portfolio' ) ?>
     </head>
     <body>
         <?php display_main_navbar() ?>

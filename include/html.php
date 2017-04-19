@@ -9,6 +9,16 @@ function display_head( $title ) {
     <?php // TODO: do metadata and OG ?>
     <title><?php echo( $title ) ?></title>
     <link rel="icon" href="img/favicon.ico" />
+    <meta property="og:title" content="<?php echo( $title ) ?>" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:first_name" content="Louis-Marie" />
+    <meta property="og:last_name" content="Matthews" />
+    <meta property="og:gender" content="male" />
+    <meta property="og:url" content="http://shift-two.alwaysdata.net/portfolio/" />
+    <meta property="og:description" content="Portfolio of Louis-Marie Matthews." />
+    <meta property="og:determiner" content="the" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:image" content="http://shift-two.alwaysdata.net/portfolio/img/louis-marie.jpg" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
