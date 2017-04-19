@@ -31,7 +31,7 @@
             <section class="section dura-section" aria-labelledby="pf-dura-section-heading">
                 <div class="pf-section-content">
                     <h1 id="pf-dura-section-heading" class="section-heading">Dundee University Review of the Arts</h1>
-                    <p>Entirely revamping a Wordpress theme to meet the client's demands made for a challenging and productive experience, even more when the other student working with me withdrew from the project.</p>
+                    <p>Entirely revamping a Wordpress theme to meet the client's demands made for a challenging and productive experience, even more when the only person working with me withdrew from the project.</p>
                     <p>Wordpress, Javascript, Bootstrap and Git were technologies I had to quickly become familiar with to deliver the theme on time.</p>
                 </div>
             </section>
