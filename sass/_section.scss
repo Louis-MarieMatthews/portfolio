@@ -133,12 +133,14 @@
 
 
 .section {
-    background-size: auto 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media (min-width: 1280px) {
     .section {
-        background-size: 100% 100%;
+        //background-size: 100% 100%;
     }
 }
 
@@ -163,7 +165,7 @@
 // JAVA & PHP
 
 .java-and-php-section {
-    background-image: url("img/code-example-cropped.jpg");
+    background-image: url("img/code-example.jpg");
 }
 
 // TWHL HUB

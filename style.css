@@ -99,11 +99,10 @@
  * Backgrounds
  */
 .section {
-  background-size: auto 100%; }
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center; }
 
-@media (min-width: 1280px) {
-  .section {
-    background-size: 100% 100%; } }
 .me-section {
   background-image: url("img/louis-marie.jpg"); }
 
@@ -114,7 +113,7 @@
   background-image: url("img/dura.jpg"); }
 
 .java-and-php-section {
-  background-image: url("img/code-example-cropped.jpg"); }
+  background-image: url("img/code-example.jpg"); }
 
 .twhl-hub-section {
   background-image: url("img/mapping-example.jpg"); }
