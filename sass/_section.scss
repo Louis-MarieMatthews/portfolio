@@ -68,3 +68,58 @@
     text-align: right;
     transition: margin-right 1s, opacity 1.5s;
 }
+
+.section {
+    background-size: 100% 100%;
+}
+
+
+
+/**
+ * Me Section
+ */
+
+
+.me-section {
+    background-image: url("img/louis-marie.jpg");
+}
+
+
+/**
+ * Shift-Two Section
+ */
+
+
+.shift-two-section {
+    background-image: url("http://media.moddb.com/images/mods/1/18/17510/mdb2.JPG");
+}
+
+
+/**
+ * DURA Section
+ */
+
+ .dura-section {
+     background-image: url("img/dura.jpg");
+ }
+
+
+
+/**
+ * Java and PHP Section
+ */
+
+
+.java-and-php-section {
+    background-image: url("img/code-example-cropped.jpg");
+}
+
+
+/**
+ * TWHL Hub
+ */
+
+
+.twhl-hub-section {
+    background-image: url("img/mapping-example.jpg");
+}
