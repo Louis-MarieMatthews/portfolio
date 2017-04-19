@@ -22,6 +22,11 @@
     margin: 0.5rem;
 }
 
+.pf-section-content a:hover,
+.pf-section-content a:focus {
+    color: white;
+}
+
 @media (min-width: 768px) {
     .pf-section-content {
         width: 50%;
