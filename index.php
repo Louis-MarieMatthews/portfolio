@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php display_head( 'Home' ) ?>
+        <?php display_head( 'Louis-Marie Matthews' ) ?>
     </head>
     <body>
         <?php display_main_navbar( 'home' ) ?>
