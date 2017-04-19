@@ -38,11 +38,11 @@ function display_main_navbar() {
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#me">Me</a></li>
-            <li><a href="#shift-two">Shift-Two</a></li>
-            <li><a href="dura">Dundee University Review of the Arts</a></li>
-            <li><a href="#java-and-php">Java & PHP</a></li>
-            <li><a href="#twhl-hub">TWHL Hub</a></li>
+            <li class="main-navbar-link main-navbar-link-for-me" class="active"><a href="#me">Me</a></li>
+            <li class="main-navbar-link main-navbar-link-for-shift-two" ><a href="#shift-two">Shift-Two</a></li>
+            <li class="main-navbar-link main-navbar-link-for-dura" ><a href="#dura">Dundee University Review of the Arts</a></li>
+            <li class="main-navbar-link main-navbar-link-for-java-and-php"><a href="#java-and-php">Java & PHP</a></li>
+            <li class="main-navbar-link main-navbar-link-for-twhl-hub"><a href="#twhl-hub">TWHL Hub</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -60,12 +60,12 @@ function display_footer() {
     <script type="text/javascript" src="fullpagejs/jquery.fullpage.min.js"></script>
     <script>
         $(document).ready(function() {
+            var sections = ['me', 'shift-two', 'dura', 'java-and-php', 'twhl-hub'];
             $('.section-heading').css('opacity', '0.5');
             $('#fullpage').fullpage({
                 anchors: ['me', 'shift-two', 'dura', 'java-and-php', 'twhl-hub'],
                 afterLoad: function(anchorLink, index) {
                     var loadedSection = $(this);
-                    $('li.active').removeClass('active');
                     $('.active-pf-section').removeAttr('style');
                     $('.active-pf-section').css('opacity', 0.5);
                     $('.active-pf-section').removeClass('active-pf-section');
@@ -77,13 +77,9 @@ function display_footer() {
                     var B = Math.floor(Math.random() * 255);
                     console.log('rgb(' + R + ', ' + G + ', ' + B + ')');
                     $('.pf-section-content').css('border-color', 'rgb(' + R + ', ' + G + ', ' + B + ')');
-                    /*
-                    $("a[href='#" + anchorLink + "']").parent().addClass('active');
-
-                    var backgroundDiv = '.' + anchorLink + '-background';
-                    $( '.active-background' ).css( 'opacity', 0 );
-                    $( backgroundDiv ).css( 'opacity', 1 );
-                    $( backgroundDiv ).addClass( 'active-background' );*/
+                    
+                    $('.main-navbar-link.active').removeClass('active');
+                    $('.main-navbar-link-for-' + anchorLink).addClass('active');
                 }
             });
         });
