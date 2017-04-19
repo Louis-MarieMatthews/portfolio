@@ -44,11 +44,12 @@
             <section class="section java-and-php-section" aria-labelledby="pf-java-and-php-section-heading">
                 <div class="pf-section-content">
                     <h1 id="pf-java-and-php-section-heading" class="section-heading">Java & PHP</h1>
-                    <p>I've used PHP and Java for several university assignments, which can be found on Github. These are: </p>
+                    <p>I've used PHP and Java for several university assignments and personal projects, which can be found on Github. These are: </p>
                     <ul>
                         <li>A <a href="https://github.com/Louis-MarieMatthews/EventQueueExample">Java console program</a> which makes use of threads to explain the event queue design pattern.</li>
                         <li>A <a href="https://github.com/Louis-MarieMatthews/privateinstagrim">Java Website</a> which is a refactored version of <a href="https://github.com/acobley/instagrim">Instagrim</a>, with multiple bugs fixed and new features.</li>
                         <li>A <a href="https://github.com/Louis-MarieMatthews/ac32006_assignment1">PHP Website</a> made as a team.</li>
+                        <li>This very portfolio which source code can be found <a href="https://github.com/Louis-MarieMatthews/portfolio">there</a></li>
                     </ul>
                 </div>
             </section>
