@@ -8,17 +8,44 @@
   font-size: 1.5rem;
   color: white;
   padding-top: 5.5rem;
-  background: black;
+  background: #0f0f0f;
   padding-left: 2%;
-  padding-right: 2%;
   width: 80%;
   height: 100%;
   border-right: 1rem solid black;
-  transition: border-color 3s; }
+  transition: border-color 3s;
+  box-sizing: border-box; }
 
 .pf-section-content p {
   margin: 0.5rem; }
 
+/**
+ * Navigation Unordered list
+ **/
+.pf-section-nav-ul {
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  right: 20%; }
+
+.pf-section-nav-ul-link {
+  display: block;
+  border-right: 1rem solid transparent;
+  padding-right: 1rem;
+  padding-left: 2.0rem; }
+
+.pf-section-nav-ul-link:hover {
+  text-decoration: none;
+  background-image: url("img/arrow.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-right: solid 1rem white;
+  color: white !important; }
+
+/**
+ * Section Heading
+ **/
 .section-heading {
   font-weight: 600;
   font-size: 2rem;
@@ -27,8 +54,5 @@
   margin-bottom: 1rem;
   text-align: right;
   transition: margin-right 1s, opacity 1.5s; }
-
-body {
-  margin-top: 1em; }
 
 /*# sourceMappingURL=style.css.map */

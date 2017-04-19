@@ -9,18 +9,55 @@
     font-size: 1.5rem;
     color: white;
     padding-top: 5.5rem;
-    background: black;
+    background: rgb(15, 15, 15);
     padding-left: 2%;
-    padding-right: 2%;
+    //padding-right: 2%;
     width: 80%;
     height: 100%;
     border-right: 1rem solid black;
     transition: border-color 3s;
+    box-sizing: border-box;
 }
 
 .pf-section-content p {
     margin: 0.5rem;
 }
+
+
+/**
+ * Navigation Unordered list
+ **/
+
+
+.pf-section-nav-ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    right: 20%;
+}
+
+.pf-section-nav-ul-link {
+    display: block;
+    border-right: 1rem solid rgba(0, 0, 0, 0);
+    padding-right: 1rem;
+    padding-left: 2.0rem; // font-size (1.5rem) + margin with arrow (0.5 rem)
+}
+
+.pf-section-nav-ul-link:hover {
+    text-decoration: none;
+    background-image: url("img/arrow.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-right: solid 1rem white;
+    color: white !important; 
+}
+
+
+/**
+ * Section Heading
+ **/
+
 
 .section-heading {
     font-weight: 600;
