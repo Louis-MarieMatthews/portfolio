@@ -38,10 +38,11 @@ function display_main_navbar() {
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#programming">Programming</a></li>
-            <li><a href="#thoroughness">Programming</a></li>
-            <li><a href="#level-design-and-blender">Level Design & Blender</a></li>
+            <li class="active"><a href="#me">Me</a></li>
+            <li><a href="#shift-two">Shift-Two</a></li>
+            <li><a href="dura">Dundee University Review of the Arts</a></li>
+            <li><a href="#java-and-php">Java & PHP</a></li>
+            <li><a href="#twhl-hub">TWHL Hub</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
