@@ -15,7 +15,7 @@
                     <p>I strive to deliver quality and excel at logical thinking. I keep learning new technologies and perfecting my skills. I follow established programming principles (DRY, SOLID) and design patterns.</p>
                     <ul class="pf-section-nav-ul">
                         <li><a class="pf-section-nav-ul-link" href="mailto:louismarie.matthews@outlook.fr">Email</a></li>
-                        <li><a class="pf-section-nav-ul-link" href="https://github.com/Louis-MarieMatthews">GitHub</a></li>
+                        <li><a class="pf-section-nav-ul-link" href="https://github.com/matthewslouismarie">GitHub</a></li>
                         <li><a class="pf-section-nav-ul-link" href="https://www.linkedin.com/in/louis-marie-matthews/">LinkedIn</a></li>
                         <li><a class="pf-section-nav-ul-link" href="http://stackexchange.com/users/9540988/louis-marie-matthews?tab=top">Stack Exchange</a></li>
                     </ul>
@@ -46,10 +46,10 @@
                     <h1 id="pf-java-and-php-section-heading" class="section-heading">Java & PHP</h1>
                     <p>I've used PHP and Java for several university assignments and personal projects, which can be found on Github. These are: </p>
                     <ul>
-                        <li>A <a href="https://github.com/Louis-MarieMatthews/EventQueueExample">Java console program</a> which makes use of threads to explain the event queue design pattern.</li>
-                        <li>A <a href="https://github.com/Louis-MarieMatthews/privateinstagrim">Java Website</a> which is a refactored version of <a href="https://github.com/acobley/instagrim">Instagrim</a>, with multiple bugs fixed and new features.</li>
-                        <li>A <a href="https://github.com/Louis-MarieMatthews/ac32006_assignment1">PHP Website</a> made as a team.</li>
-                        <li>This very portfolio which source code can be found <a href="https://github.com/Louis-MarieMatthews/portfolio">there</a></li>
+                        <li>A <a href="https://github.com/matthewslouismarie/EventQueueExample">Java console program</a> which makes use of threads to explain the event queue design pattern.</li>
+                        <li>A <a href="https://github.com/matthewslouismarie/privateinstagrim">Java Website</a> which is a refactored version of <a href="https://github.com/acobley/instagrim">Instagrim</a>, with multiple bugs fixed and new features.</li>
+                        <li>A <a href="https://github.com/matthewslouismarie/ac32006_assignment1">PHP Website</a> made as a team.</li>
+                        <li>This very portfolio which source code can be found <a href="https://github.com/matthewslouismarie/portfolio">there</a></li>
                     </ul>
                 </div>
             </section>
