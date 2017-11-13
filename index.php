@@ -14,10 +14,10 @@
                     <p>I have experience in Blender, HTML5, CSS3, PHP, C++, Javascript and C# / ASP.NET and teamwork.</p>
                     <p>I strive to deliver quality and excel at logical thinking. I keep learning new technologies and perfecting my skills. I follow established programming principles (DRY, SOLID) and design patterns.</p>
                     <ul class="pf-section-nav-ul">
-                        <li><a class="pf-section-nav-ul-link" href="mailto:louismarie.matthews@outlook.fr">Email</a></li>
+                        <li><a class="pf-section-nav-ul-link" href="mailto:matthewslouismarie@gmail.com">Email</a></li>
                         <li><a class="pf-section-nav-ul-link" href="https://github.com/matthewslouismarie">GitHub</a></li>
-                        <li><a class="pf-section-nav-ul-link" href="https://www.linkedin.com/in/louis-marie-matthews/">LinkedIn</a></li>
-                        <li><a class="pf-section-nav-ul-link" href="http://stackexchange.com/users/9540988/louis-marie-matthews?tab=top">Stack Exchange</a></li>
+                        <li><a class="pf-section-nav-ul-link" href="https://www.linkedin.com/in/matthewslouismarie/">LinkedIn</a></li>
+                        <li><a class="pf-section-nav-ul-link" href="http://stackexchange.com/users/9540988/matthewslouismarie">Stack Exchange</a></li>
                     </ul>
                 </div>
             </section>
