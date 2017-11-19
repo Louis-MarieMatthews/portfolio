@@ -1,3 +1,5 @@
-.sass-cache
-.vscode
+/.sass-cache
+/.vscode
+/Thumbs.db
+/vendor
 Thumbs.db
