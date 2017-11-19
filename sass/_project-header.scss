@@ -1,6 +1,14 @@
 .project-header {
-  background-image: url("img/quackathon.png");
-  background-position: center;
+
+  &.-quackathon {
+    background-image: url("img/quackathon.png");
+    background-position: center;  
+  }
+
+  &.-codeforgood {
+    background-image: url("img/codeforgood.jpg");
+    background-position: top left;  
+  }
 
   > .content {
     background-image: url("img/shadow_overlay.png");
