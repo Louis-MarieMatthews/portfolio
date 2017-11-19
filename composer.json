@@ -1,8 +1,8 @@
 {
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/matthewslouismarie/lm-web-framework"
+            "type": "git",
+            "url": "C:\\wamp64\\www\\lm-web-framework"
         }
     ],
     "require": {
