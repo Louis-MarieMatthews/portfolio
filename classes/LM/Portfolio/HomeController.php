@@ -8,7 +8,8 @@ class HomeController implements IPageController
 {
 	public function doGet(): void
     {
-        echo 'yo';
+        $view = new HomeHtmlView();
+        $view->display();
     }
 
 	public function doPost(array $postData): void
