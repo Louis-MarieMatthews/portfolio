@@ -1,0 +1,8 @@
+.links-list {
+  list-style-type: none;
+  text-align: center;
+
+  > .item {
+    display: inline-block;
+  }
+}
