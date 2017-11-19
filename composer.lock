@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8b601f82d255598a96068fadd9248062",
+    "packages": [
+        {
+            "name": "matthewslouismarie/lm-web-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthewslouismarie/lm-web-framework.git",
+                "reference": "a3ee3293b01ed14eeeafe145a6a27a76a93504a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthewslouismarie/lm-web-framework/zipball/a3ee3293b01ed14eeeafe145a6a27a76a93504a8",
+                "reference": "a3ee3293b01ed14eeeafe145a6a27a76a93504a8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LM\\": "classes/LM/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/matthewslouismarie/lm-web-framework/tree/master",
+                "issues": "https://github.com/matthewslouismarie/lm-web-framework/issues"
+            },
+            "time": "2017-11-19 14:25:29"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "matthewslouismarie/lm-web-framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

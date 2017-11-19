@@ -1,9 +1,7 @@
-<?php require_once( 'include/html.php' ) ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <?php display_head( 'Louis-Marie Matthews\'s Portfolio' ) ?>
-  </head>
-  <body>
-  </body>
-</html>
+<?php
+
+require_once 'vendor/autoload.php';
+
+use LM\WebFramework\Controller\MainController;
+
+$main_controller = new MainController();
