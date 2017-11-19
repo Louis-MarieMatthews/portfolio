@@ -2,10 +2,15 @@
     "repositories": [
         {
             "type": "git",
-            "url": "C:\\wamp64\\www\\lm-web-framework"
+            "url": "C:\\Users\\louis_000\\fichiers_pas_a_garder\\lm-web-framework"
         }
     ],
     "require": {
         "matthewslouismarie/lm-web-framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "LM\\Portfolio\\": "classes/LM/Portfolio/"
+        }
     }
 }
