@@ -10,6 +10,21 @@
     background-position: top left;  
   }
 
+  &.-yummycoffee {
+    background-image: url("img/penguinscrossing.png");
+    background-position: center;
+  }
+
+  &.-insidertrading {
+    background-image: url("img/insider.png");
+    background-position: center;
+  }
+
+  &.-shifttwo {
+    background-image: url("img/shift-two.jpg");
+    background-position: center;
+  }
+
   > .content {
     background-image: url("img/shadow_overlay.png");
     background-position: bottom;
