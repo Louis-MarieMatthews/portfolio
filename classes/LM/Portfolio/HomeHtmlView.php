@@ -64,11 +64,11 @@ class HomeHtmlView implements IView
       <p class="sentence">I was responsible for the entire development process of full-stack websites as well as PrestaShop and WordPress themes.</p>
       <p class="sentence">I learnt and used several programming practices and web development guidelines, such as <a href="https://www.youtube.com/watch?v=8d2AtAGJPno">Extremely Defensive PHP</a>, <a href="http://rscss.io">RSCSS</a>, and <a href="https://www.lukew.com/ff/entry.asp?933">Mobile First design</a>.</p>
       <p class="sentence">Part of the work I did included:</p>
-      <ul>
-        <li><a href="http://91.121.16.158/ohlouis/fmp/">a website for selling cars online made using a database-driven approach</a>,</li>
-        <li><a href="http://www.mytransport.paris">a website for a taxi company</a>,</li>
-        <li><a href="http://blog.paysdesdelices.com">adding a dynamic translation system to WordPress</a>,</li>
-        <li><a href="http://91.121.16.158/ohlouis/layal/fr/blog/layal-mag-c24.html">revamping a PrestaShop theme and adding a blog section to it</a>.</li>
+      <ul class="standard-list">
+        <li class="item"><a class="link" href="http://91.121.16.158/ohlouis/fmp/">a website for selling cars online made using a database-driven approach</a>,</li>
+        <li class="item"><a class="link" href="http://www.mytransport.paris">a website for a taxi company</a>,</li>
+        <li class="item"><a class="link" href="http://blog.paysdesdelices.com">adding a dynamic translation system to WordPress</a>,</li>
+        <li class="item"><a class="link" href="http://91.121.16.158/ohlouis/layal/fr/blog/layal-mag-c24.html">revamping a PrestaShop theme and adding a blog section to it</a>.</li>
       </ul>
     </section>
     <section class="project-overview">
