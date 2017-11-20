@@ -49,7 +49,7 @@ class HomeHtmlView implements IView
         <p class="line-container">This website was tested for accessibility and responsivness.</p>
       </div>
     </header>
-    <main itemprop="mainContentOfPage">
+    <main class="page-main-content" itemprop="mainContentOfPage">
       <section class="project-overview" itemscope itemtype="http://schema.org/VideoGame">
         <header class="project-header -quackathon">
           <div class="content">
