@@ -1,0 +1,13 @@
+.line-container {
+  font-size: $text-font-size;
+  font-family: $font-family;
+  padding: $padding $important-padding;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  > .emphasised {
+    font-style: normal;
+    font-size: $big-text-font-size;
+    font-weight: $bold;
+  }
+}
