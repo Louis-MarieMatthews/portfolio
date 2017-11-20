@@ -24,11 +24,11 @@ class HomeHtmlView implements IView
       <p class="line-container">This website presents the different projects I've worked on.</p>
       <p class="line-container">If you want to learn more about me:</p>
       <ul class="standard-list">
-        <li class="item"><a class="link" href="">LinkedIn</a></li>
-        <li class="item"><a class="link" href="">StackOverflow's Developer Story</a></li>
-        <li class="item"><a class="link" href="">GitHub</a></li>
+        <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/">LinkedIn</a></li>
+        <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie">StackOverflow's Developer Story</a></li>
+        <li class="item"><a class="link" href="https://github.com/matthewslouismarie">GitHub</a></li>
       </ul>
-      <p class="line-container">This website was tested for accessibility and responsisvness.</p>
+      <p class="line-container">This website was tested for accessibility and responsivness.</p>
     </div>
     <section class="project-overview">
       <header class="project-header -quackathon">
