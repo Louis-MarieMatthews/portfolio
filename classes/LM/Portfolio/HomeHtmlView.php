@@ -10,7 +10,7 @@ class HomeHtmlView implements IView
     {
 ?>
 <!DOCTYPE html>
-<html class="website-container" lang="en">
+<html class="page-container" lang="en">
   <head>
     <meta charset="utf-8">
     <meta property="og:title" content="Louis-Marie Matthews's Portfolio">
@@ -32,9 +32,9 @@ class HomeHtmlView implements IView
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="style.min.css">
   </head>
-  <body class="website" itemscope itemtype="http://schema.org/CollectionPage">
+  <body class="page" itemscope itemtype="http://schema.org/CollectionPage">
     <header itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <h1 class="website-title">Who am I?</h1>
+      <h1 class="page-title">Who am I?</h1>
       <div class="content-container">
         <p class="line-container"><em class="emphasised">Hi! I'm <span itemprop="name">Louis-Marie</span>.</em></p>
         <p class="line-container">I'm a student at the <span itemprop="memberOf" itemscope itemtype="http://schema.org/CollegeOrUniversity"><span itemprop="name">University of Dundee</span></span>.</p>
