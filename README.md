@@ -8,3 +8,4 @@
  * bigger images
  * optimised images
  * specify CSS's version
+ * licenses and copyrights
