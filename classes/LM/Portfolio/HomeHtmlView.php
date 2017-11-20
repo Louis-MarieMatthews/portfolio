@@ -33,7 +33,7 @@ class HomeHtmlView implements IView
         <div class="content">
           <h2 class="title">Quackathon (University of Dundee's Hackathon)</h2>
           <ul class="links-list">
-            <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon"><img class="logo" src="img/GitHub-Mark-Light-120px-plus.png"></a></li>
+            <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon"><img class="logo" src="img/github.png"></a></li>
           </ul>
         </div>
       </header>
@@ -75,6 +75,9 @@ class HomeHtmlView implements IView
       <header class="project-header -insidertrading">
         <div class="content">
           <h2 class="title">Insider</h2>
+          <ul class="links-list">
+            <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading"><img class="logo" src="img/github.png"></a></li>
+          </ul>
         </div>
       </header>
       <p class="sentence">This is the game I had to make as part of the Games Programming's module assignment in second year.</p>
@@ -89,6 +92,9 @@ class HomeHtmlView implements IView
       <header class="project-header -shifttwo">
         <div class="content">
           <h2 class="title">Shift-Two</h2>
+          <ul class="links-list">
+            <li class="item"><a class="link" href="http://www.moddb.com/mods/shift-two1"><img class="logo" src="img/moddb.png"></a></li>
+          </ul>
         </div>
       </header>
       <p class="sentence">Shift-Two is a mod that I made on my free time when I was in secondary school.</p>

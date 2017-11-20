@@ -5,4 +5,9 @@
   > .item {
     display: inline-block;
   }
+
+  > .item > .link > .logo {
+    height: $title-font-size;
+    width: auto;
+  }
 }
