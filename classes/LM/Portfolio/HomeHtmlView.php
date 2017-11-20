@@ -35,7 +35,7 @@ class HomeHtmlView implements IView
         <div class="content">
           <h2 class="title">Quackathon (University of Dundee's Hackathon)</h2>
           <ul class="links-list">
-            <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon"><img class="logo" src="img/github.png"></a></li>
+            <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon"><img alt="GitHub" class="logo" src="img/github.png"></a></li>
           </ul>
         </div>
       </header>
@@ -84,7 +84,7 @@ class HomeHtmlView implements IView
         <div class="content">
           <h2 class="title">Insider</h2>
           <ul class="links-list">
-            <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading"><img class="logo" src="img/github.png"></a></li>
+            <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading"><img alt="GitHub" class="logo" src="img/github.png"></a></li>
           </ul>
         </div>
       </header>
@@ -103,7 +103,7 @@ class HomeHtmlView implements IView
         <div class="content">
           <h2 class="title">Shift-Two</h2>
           <ul class="links-list">
-            <li class="item"><a class="link" href="http://www.moddb.com/mods/shift-two1"><img class="logo" src="img/moddb.png"></a></li>
+            <li class="item"><a class="link" href="http://www.moddb.com/mods/shift-two1"><img alt="ModDB" class="logo" src="img/moddb.png"></a></li>
           </ul>
         </div>
       </header>
