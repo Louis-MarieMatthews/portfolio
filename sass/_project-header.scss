@@ -22,10 +22,11 @@
     height: 30rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 0;
+    text-align: center;
     font-family: $font-family;
     font-size: $title-font-size;
-    text-align: center;
   }
 
   > .content > .links-list {
