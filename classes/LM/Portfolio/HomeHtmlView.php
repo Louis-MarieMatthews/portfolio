@@ -18,7 +18,7 @@ class HomeHtmlView implements IView
     <link rel="stylesheet" href="style.min.css">
   </head>
   <body class="website">
-    <h1>Who am I?</h1>
+    <h1 class="website-title">Who am I?</h1>
     <p>Hi! I'm Louis-Marie.</p>
     <p>This website presents the different projects I've worked on.</p>
     <p>If you want to learn more about me:</p>
