@@ -80,7 +80,17 @@ class HomeHtmlView implements IView
       <p class="sentence">This is the game I had to make as part of the Games Programming's module assignment in second year.</p>
       <p class="sentence">I taught myself C++ instead of Unity as I thought the former is more useful to know.</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/-8LdjKoZM4s?rel=0" frameborder="0" allowfullscreen></iframe>
-      
+    </section>
+    <section class="project-overview">
+      <header class="project-header -shifttwo">
+        <div class="content">
+          <h2 class="title">Shift-Two</h2>
+        </div>
+      </header>
+      <p class="sentence">Shift-Two is a mod that I made on my free time when I was in secondary school.</p>
+      <p class="sentence">I taught myself HTML, CSS, but more importantly 3D modelling.</p>
+      <p class="sentence">The technology used being old, poorly documented, and closed-source, I also gained a lot of experience in learning through trial-and-errors and not rely on community support and documentation.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Nl5L2lhoPA4?rel=0" frameborder="0" allowfullscreen></iframe>
     </section>
   </body>
 </html>
