@@ -10,4 +10,8 @@
     font-size: $big-text-font-size;
     font-weight: $bold;
   }
+
+  @media (min-width: $screen-sm-min) {
+    font-size: $text-font-size-sm;
+  }
 }

@@ -4,4 +4,8 @@
   list-style-position: inside;
   font-family: $font-family;
   font-size: $text-font-size;
+  
+  @media (min-width: $screen-sm-min) {
+    font-size: $text-font-size-sm;
+  }
 }
