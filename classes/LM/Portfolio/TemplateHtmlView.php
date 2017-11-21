@@ -43,7 +43,7 @@ class TemplateHtmlView implements IView
       <li class="item"><a class="link" href="https://github.com/matthewslouismarie">View my GitHub profile.</a></li>
       <li class="item">Send me an email at <a class="link" href="mailto:matthewslouismarie@gmail.com"><span itemprop="email">matthewslouismarie@gmail.com</span></a>.</li>
     </ul>
-    <p class="line-container">This website was tested for accessibility and responsivness.</p>
+    <p class="line-container">This website was tested for accessibility and responsiveness.</p>
   </div>
 </header>
 <main class="page-main-content" itemprop="mainContentOfPage">
