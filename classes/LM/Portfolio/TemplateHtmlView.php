@@ -183,7 +183,6 @@ class TemplateHtmlView implements IView
 <meta property="og:url" content="https://<?= htmlspecialchars($_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']) ?>">
 <link rel="icon" href="img/favicon.ico">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
-<link rel="stylesheet" href="style.min.css">
 <?php
     }
 

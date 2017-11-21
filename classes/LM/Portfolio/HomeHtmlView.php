@@ -12,6 +12,7 @@ class HomeHtmlView extends TemplateHtmlView
   <head>
     <meta charset="utf-8">
     <title>Louis-Marie Matthews's Portfolio</title>
+    <link rel="stylesheet" href="style.min.css">
     <?php $this->displayHeadContent() ?>
   </head>
   <body <?php $this->displayBodyAttrs() ?>>
