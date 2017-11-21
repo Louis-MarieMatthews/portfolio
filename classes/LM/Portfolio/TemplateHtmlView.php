@@ -44,7 +44,7 @@ class TemplateHtmlView implements IView
     </div>
     <p class="line-container">I'm a student at the <span itemprop="memberOf" itemscope itemtype="http://schema.org/CollegeOrUniversity"><span itemprop="name">University of Dundee</span></span>.</p>
     <p class="line-container">This website presents the different projects I've worked on.</p>
-    <p class="line-container">This website was tested for accessibility and responsiveness. It uses <a href="https://www.ampproject.org">Google AMP</a> for a better mobile experience. It also makes use of <a href="https://schema.org">schema</a> and <a href="http://ogp.me">Open Graph</a> definitions.</p>
+    <p class="line-container">This website was tested for accessibility and responsiveness. It uses <a href="https://www.ampproject.org">Google AMP</a> for a better mobile experience. It also makes use of <a href="https://schema.org">schema</a> and <a href="http://ogp.me">Open Graph</a> definitions. <a href="https://github.com/matthewslouismarie/portfolio">You can view its source code on GitHub</a>.</p>
   </div>
 </header>
 <main class="page-main-content" itemprop="mainContentOfPage">
