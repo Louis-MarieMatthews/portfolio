@@ -131,7 +131,7 @@ class TemplateHtmlView implements IView
       <p class="line-container">Shift-Two is a mod (a specific type of <span itemprop="applicationCategory">game</span>) that I made on my free time when I was in secondary school.</p>
       <p class="line-container">I taught myself HTML, CSS, but more importantly 3D modelling.</p>
       <p class="line-container">The technology used being old, poorly documented, and closed-source, I also gained a lot of experience in learning through trial-and-errors and not rely on community support and documentation.</p>
-      <p class="line-container">The game is rated <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">7</span>/<span itemprop="bestRating">10</span> out of <span itemprop="ratingCount">57</span> reviews.</span> on ModDB.</p>
+      <p class="line-container">The game is rated <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">7</span>/<span itemprop="bestRating">10</span> out of <span itemprop="ratingCount">57</span> reviews</span> on ModDB.</p>
       <div class="media-container">
         <div class="video-wrapper">
           <?php $this->displayYoutubeVideo('Nl5L2lhoPA4') ?>
