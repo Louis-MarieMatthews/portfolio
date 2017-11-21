@@ -34,12 +34,14 @@ class TemplateHtmlView implements IView
   <h1 class="page-title">Who am I?</h1>
   <div class="content-container">
     <p class="line-container"><em class="emphasised">Hi! I'm <span itemprop="name">Louis-Marie</span>.</em></p>
-    <ul class="links-list -leftaligned">
-        <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie"><?php $this->displayImg('alt="My LinkedIn profile" src="img/In-2C-128px-TM.png"') ?></a></li>
-        <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/"><?php $this->displayImg('alt="My Stack Overflow developer story" src="img/so-icon.png"') ?></a></li>
-        <li class="item"><a class="link" href="https://github.com/matthewslouismarie"><?php $this->displayImg('alt="My GitHub profile" src="img/GitHub-Mark-120px-plus.png"') ?></a></li>
-        <li class="item"><a class="link" href="mailto:matthewslouismarie@gmail.com"><?php $this->displayImg('alt="My email address" src="img/logo_gmail_128px.png"') ?></a></li>
-    </ul>
+    <div class="line-container">
+      <ul class="links-list -leftaligned">
+          <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie"><?php $this->displayImg('alt="My LinkedIn profile" src="img/In-2C-128px-TM.png"') ?></a></li>
+          <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/"><?php $this->displayImg('alt="My Stack Overflow developer story" src="img/so-icon.png"') ?></a></li>
+          <li class="item"><a class="link" href="https://github.com/matthewslouismarie"><?php $this->displayImg('alt="My GitHub profile" src="img/GitHub-Mark-120px-plus.png"') ?></a></li>
+          <li class="item"><a class="link" href="mailto:matthewslouismarie@gmail.com"><?php $this->displayImg('alt="My email address" src="img/logo_gmail_128px.png"') ?></a></li>
+      </ul>
+    </div>
     <p class="line-container">I'm a student at the <span itemprop="memberOf" itemscope itemtype="http://schema.org/CollegeOrUniversity"><span itemprop="name">University of Dundee</span></span>.</p>
     <p class="line-container">This website presents the different projects I've worked on.</p>
     <p class="line-container">This website was tested for accessibility and responsiveness. It uses <a href="https://www.ampproject.org">Google AMP</a> for a better mobile experience. It also makes use of <a href="https://schema.org">schema</a> and <a href="http://ogp.me">Open Graph</a> definitions.</p>
