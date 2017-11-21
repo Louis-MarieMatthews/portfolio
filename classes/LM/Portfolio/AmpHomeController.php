@@ -4,7 +4,7 @@ namespace LM\Portfolio;
 
 use LM\WebFramework\Controller\IPageController;
 
-class AmpHomeController implements IPageController
+class AmpHomeController extends IPageController
 {
     public function doGet(): void
     {

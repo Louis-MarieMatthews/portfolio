@@ -2,19 +2,22 @@
 
 namespace LM\Portfolio;
 
-use LM\WebFramework\View\IView;
-
-class HomeHtmlView implements IView
+class HomeHtmlView extends TemplateHtmlView
 {
-    private $template;
-
-    public function __construct()
+    public function display(): void
     {
-        $this->template = new TemplateHtmlView();
-    }
-
-	  public function display(): void
-    {
-        $this->template->display();
+?>
+<!doctype html>
+<html <?php parent::displayHeadAttrs() ?>>
+  <head>
+    <meta charset="utf-8">
+    <title>Louis-Marie Matthews's Portfolio</title>
+    <?php $this->displayHeadContent() ?>
+  </head>
+  <body <?php $this->displayBodyAttrs() ?>>
+    <?php $this->displayBodyContent() ?>
+  </body>
+</html>
+<?php
     }
 }
