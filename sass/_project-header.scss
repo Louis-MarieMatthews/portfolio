@@ -28,6 +28,7 @@
 
   > .content {
     background-image: url("img/shadow_overlay.png");
+    background-size: 100%;
     background-position: bottom;
   }
   
@@ -35,7 +36,7 @@
     color: #ffffff;
     padding: 0 $padding $padding $padding;
     margin-bottom: 0;
-    height: 30rem;
+    height: $project-title-height;
     display: flex;
     align-items: center;
     justify-content: center;

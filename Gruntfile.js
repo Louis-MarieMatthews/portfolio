@@ -9,6 +9,7 @@ module.exports = function(grunt) {
           },
           files: {
             'style.min.css':['sass/style.scss'],
+            'amp-style.min.css':['sass/amp-style.scss'],
           }
         }
       },
