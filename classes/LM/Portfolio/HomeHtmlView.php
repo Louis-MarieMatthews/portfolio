@@ -28,7 +28,7 @@ class HomeHtmlView implements IView
     <title>Home</title>
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
-    <link rel="stylesheet" href="style.min.css">
+    <style><?= include 'style.min.css' ?></style>
   </head>
   <body class="page" itemscope itemtype="http://schema.org/CollectionPage">  
     <script>
