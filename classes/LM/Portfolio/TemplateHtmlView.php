@@ -36,10 +36,10 @@ class TemplateHtmlView implements IView
     <p class="line-container"><em class="emphasised">Hi! I'm <span itemprop="name">Louis-Marie</span>.</em></p>
     <div class="line-container">
       <ul class="links-list -leftaligned">
-          <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie"><?php $this->displayImg('alt="My LinkedIn profile" src="img/In-2C-128px-TM.png"') ?></a></li>
-          <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/"><?php $this->displayImg('alt="My Stack Overflow developer story" src="img/so-icon.png"') ?></a></li>
-          <li class="item"><a class="link" href="https://github.com/matthewslouismarie"><?php $this->displayImg('alt="My GitHub profile" src="img/GitHub-Mark-120px-plus.png"') ?></a></li>
-          <li class="item"><a class="link" href="mailto:matthewslouismarie@gmail.com"><?php $this->displayImg('alt="My email address" src="img/logo_gmail_128px.png"') ?></a></li>
+          <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie"><?php $this->displayImg('alt="My LinkedIn profile" src="img/In-2C-128px-TM.png"', false) ?></a></li>
+          <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/"><?php $this->displayImg('alt="My Stack Overflow developer story" src="img/so-icon.png"', false) ?></a></li>
+          <li class="item"><a class="link" href="https://github.com/matthewslouismarie"><?php $this->displayImg('alt="My GitHub profile" src="img/GitHub-Mark-120px-plus.png"', false) ?></a></li>
+          <li class="item"><a class="link" href="mailto:matthewslouismarie@gmail.com"><?php $this->displayImg('alt="My email address" src="img/logo_gmail_128px.png"', false) ?></a></li>
       </ul>
     </div>
     <p class="line-container">I'm a student at the <span itemprop="memberOf" itemscope itemtype="http://schema.org/CollegeOrUniversity"><span itemprop="name">University of Dundee</span></span>.</p>
@@ -53,7 +53,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Flipn'Ducks</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" src="img/github.png"') ?></a></li>
+          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" src="img/github.png"', false) ?></a></li>
         </ul>
       </div>
     </header>
@@ -63,6 +63,7 @@ class TemplateHtmlView implements IView
       <p class="line-container" itemprop="description">The loudest the player, the higher the duck jumps (to collect items or avoid obstacles). To flip, the player must make a very precise pitch.</p>
       <p class="line-container">The biggest difficulties for me were to extract the pitch from the voice input and detect pitch patterns to decide if the duck should flip or not.</p>
       <p class="line-container">As it was made using Unity, it works on <span itemprop="operatingSystem">all major platforms</span>.</p>
+      <div class="image-container"><?= $this->displayImg('alt="The demonstration of the game at the quackathon" src="img/quackathon-picture.jpg"', true) ?></div>
     </div>
   </section>
   <section class="project-overview" itemscope itemtype="http://schema.org/SoftwareApplication">
@@ -171,9 +172,13 @@ class TemplateHtmlView implements IView
         echo 'class="page-container" lang="en"';
     }
 
-    public function displayImg(string $attrs): void
+    public function displayImg(string $attrs, bool $allWidth = false): void
     {
-        echo '<img class="logo" '.$attrs.'>';
+        if ($allWidth) {
+            echo '<img class="logo" '.$attrs.' width="100%" height="auto">';
+        } else {
+            echo '<img class="logo" '.$attrs.'>';
+        }
     }
 
     public function displayYoutubeVideo(string $id): void

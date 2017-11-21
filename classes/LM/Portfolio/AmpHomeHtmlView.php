@@ -29,9 +29,13 @@ class AmpHomeHtmlView extends TemplateHtmlView
 <?php
     }
 
-    public function displayImg(string $attrs): void
+    public function displayImg(string $attrs, bool $allWidth = false): void
     {
-        echo '<amp-img width="30" height="30" '.$attrs.'>';
+      if ($allWidth) {
+          echo '<amp-img layout="responsive" width="2048" height="1831" '.$attrs.'>';
+      } else {
+          echo '<amp-img width="30" height="30" '.$attrs.'>';
+      }
     }
 
     public function displayYoutubeVideo(string $id): void

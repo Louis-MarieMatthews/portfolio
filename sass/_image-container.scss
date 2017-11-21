@@ -1,0 +1,5 @@
+.image-container {
+  @extend .line-container;
+  padding-left: $important-padding;
+  padding-right: $important-padding;
+}
