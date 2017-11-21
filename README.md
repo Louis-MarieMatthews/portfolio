@@ -7,3 +7,4 @@
  * bigger images
  * optimised images
  * licenses and copyrights
+ * schema.org json in head
