@@ -13,6 +13,7 @@ class HomeHtmlView implements IView
 <html class="page-container" lang="en">
   <head>
     <meta charset="utf-8">
+    <meta property="fb:app_id" content="2013357305611860">
     <meta property="og:title" content="Louis-Marie Matthews's Portfolio">
     <meta property="og:determiner" content="">
     <meta property="og:locale" content="en_GB">
