@@ -17,17 +17,17 @@ class HomeHtmlView implements IView
     <meta property="og:determiner" content="">
     <meta property="og:locale" content="en_GB">
     <meta property="og:type" content="profile">
-    <meta property="og:type:first_name" content="Louis-Marie">
-    <meta property="og:type:last_name" content="Matthews">
-    <meta property="og:type:username" content="matthewslouismarie">
-    <meta property="og:type:gender" content="male">
+    <meta property="og:profile:first_name" content="Louis-Marie">
+    <meta property="og:profile:last_name" content="Matthews">
+    <meta property="og:profile:username" content="matthewslouismarie">
+    <meta property="og:profile:gender" content="male">
     <meta property="og:description" content="My portfolio. I am a computing student at the University of Dundee.">
     <meta property="og:image" content="img/louis-marie.jpg">
     <meta property="og:image:alt" content="Louis-Marie Matthews">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="627">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:url" content="<?= htmlspecialchars($_SERVER['REQUEST_URI']) ?>">
+    <meta property="og:url" content="https://<?= htmlspecialchars($_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']) ?>">
     <title>Home</title>
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
