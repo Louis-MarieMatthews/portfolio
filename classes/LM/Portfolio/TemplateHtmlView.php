@@ -73,7 +73,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Flipn'Ducks</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><img alt="GitHub" class="logo" src="img/github.png"></a></li>
+          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" class="logo" src="img/github.png"') ?></a></li>
         </ul>
       </div>
     </header>
@@ -123,7 +123,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Insider Trading</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading" itemprop="http://schema.org/downloadUrl"><img alt="GitHub" class="logo" src="img/github.png"></a></li>
+          <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" class="logo" src="img/github.png"') ?></a></li>
         </ul>
       </div>
     </header>
@@ -133,7 +133,7 @@ class TemplateHtmlView implements IView
       <p class="line-container">Because it uses Allegro it can run on <span itemprop="operatingSystem">all major platforms</span>.</p>
       <div class="media-container" itemprop="http://schema.org/video">      
         <div class="video-wrapper">
-          <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/-8LdjKoZM4s?rel=0" allowfullscreen></iframe>
+          <?php $this->displayYoutubeVideo('-8LdjKoZM4s') ?>
         </div>
       </div>
     </div>
@@ -154,7 +154,7 @@ class TemplateHtmlView implements IView
       <p class="line-container">The game is rated <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">7</span>/<span itemprop="bestRating">10</span> out of <span itemprop="ratingCount">57</span> reviews.</span> on ModDB.</p>
       <div class="media-container" itemprop="http://schema.org/video">
         <div class="video-wrapper">
-          <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/Nl5L2lhoPA4?rel=0"  allowfullscreen></iframe>
+          <?php $this->displayYoutubeVideo('Nl5L2lhoPA4') ?>
         </div>
       </div>
     </div>
@@ -189,5 +189,15 @@ class TemplateHtmlView implements IView
     public function displayHeadAttrs(): void
     {
         echo 'class="page-container" lang="en"';
+    }
+
+    public function displayImg(string $attrs): void
+    {
+        echo '<img alt="GitHub" class="logo" src="img/github.png">';
+    }
+
+    public function displayYoutubeVideo(string $id): void
+    {
+        echo '<iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/'.$id.'?rel=0" allowfullscreen></iframe>';
     }
 }
