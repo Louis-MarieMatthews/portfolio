@@ -29,7 +29,8 @@ class HomeHtmlView implements IView
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:url" content="<?= htmlspecialchars($_SERVER['REQUEST_URI']) ?>">
     <title>Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
     <link rel="stylesheet" href="style.min.css">
   </head>
   <body class="page" itemscope itemtype="http://schema.org/CollectionPage">
