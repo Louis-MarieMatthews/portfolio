@@ -6,15 +6,15 @@ use LM\WebFramework\View\IView;
 
 class AmpHomeHtmlView implements IView
 {
-    private $home;
+    private $template;
 
-    public function __construct(HomeHtmlView $home)
+    public function __construct()
     {
-        $this->home = $home;
+        $this->template = new TemplateHtmlView();
     }
 
     public function display(): void
     {
-        $home->display();
+        $this->template->display();
     }
 }

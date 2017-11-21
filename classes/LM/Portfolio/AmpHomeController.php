@@ -8,7 +8,8 @@ class AmpHomeController implements IPageController
 {
     public function doGet(): void
     {
-        echo 'yo';
+        $view = new AmpHomeHtmlView();
+        $view->display();
     }
 
     public function doPost(array $post_data): void
