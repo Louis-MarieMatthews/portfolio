@@ -31,7 +31,7 @@ class AmpHomeHtmlView extends TemplateHtmlView
 
     public function displayImg(string $attrs): void
     {
-        echo '<amp-img alt="GitHub" width="auto" height="1.5rem" src="img/github.png">';
+        echo '<amp-img width="30" height="30" '.$attrs.'>';
     }
 
     public function displayYoutubeVideo(string $id): void

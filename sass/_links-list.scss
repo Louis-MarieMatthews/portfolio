@@ -1,9 +1,15 @@
 .links-list {
   list-style-type: none;
   text-align: center;
+  padding-left: $important-padding;
+
+  &.-leftaligned {
+    text-align: left;
+  }
 
   > .item {
     display: inline-block;
+    padding-right: $sm-padding;
   }
 
   > .item > .link > .logo {
