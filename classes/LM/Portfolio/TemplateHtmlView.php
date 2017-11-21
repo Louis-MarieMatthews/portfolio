@@ -110,7 +110,7 @@ class TemplateHtmlView implements IView
       <p class="line-container">This is the <span itemprop="applicationCategory">2D game</span> I had to make as part of the Games Programming's module assignment in second year.</p>
       <p class="line-container">I taught myself C++ instead of Unity as I thought the former is more useful to know.</p>
       <p class="line-container">Because it uses Allegro it can run on <span itemprop="operatingSystem">all major platforms</span>.</p>
-      <div class="media-container" itemprop="http://schema.org/video">      
+      <div class="media-container">      
         <div class="video-wrapper">
           <?php $this->displayYoutubeVideo('-8LdjKoZM4s') ?>
         </div>
@@ -131,7 +131,7 @@ class TemplateHtmlView implements IView
       <p class="line-container">I taught myself HTML, CSS, but more importantly 3D modelling.</p>
       <p class="line-container">The technology used being old, poorly documented, and closed-source, I also gained a lot of experience in learning through trial-and-errors and not rely on community support and documentation.</p>
       <p class="line-container">The game is rated <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">7</span>/<span itemprop="bestRating">10</span> out of <span itemprop="ratingCount">57</span> reviews.</span> on ModDB.</p>
-      <div class="media-container" itemprop="http://schema.org/video">
+      <div class="media-container">
         <div class="video-wrapper">
           <?php $this->displayYoutubeVideo('Nl5L2lhoPA4') ?>
         </div>
