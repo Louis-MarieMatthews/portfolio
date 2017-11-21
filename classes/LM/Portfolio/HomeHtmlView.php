@@ -10,9 +10,10 @@ class HomeHtmlView implements IView
     {
 ?>
 <!DOCTYPE html>
-<html class="page-container" lang="en">
+<html amp class="page-container" lang="en">
   <head>
     <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
     <meta property="fb:app_id" content="2013357305611860">
     <meta property="og:title" content="Louis-Marie Matthews's Portfolio">
     <meta property="og:determiner" content="">

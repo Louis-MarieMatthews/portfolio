@@ -4,10 +4,12 @@ require_once 'vendor/autoload.php';
 
 use LM\WebFramework\Controller\MainController;
 use LM\WebFramework\Routing\CustomizableRouter;
+use LM\Portfolio\AmpHomeController;
 use LM\Portfolio\HomeController;
 
 $routes_config = array(
-    '/' => new HomeController(),
+    '' => new HomeController(),
+    '/amp' => new AmpHomeController(),
 );
 
 $router = new CustomizableRouter($routes_config);
