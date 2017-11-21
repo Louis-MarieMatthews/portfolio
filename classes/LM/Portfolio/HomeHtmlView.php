@@ -18,10 +18,6 @@ class HomeHtmlView implements IView
     <meta property="og:determiner" content="">
     <meta property="og:locale" content="en_GB">
     <meta property="og:type" content="profile">
-    <meta property="og:profile:first_name" content="Louis-Marie">
-    <meta property="og:profile:last_name" content="Matthews">
-    <meta property="og:profile:username" content="matthewslouismarie">
-    <meta property="og:profile:gender" content="male">
     <meta property="og:description" content="My portfolio. I am a computing student at the University of Dundee.">
     <meta property="og:image" content="https://<?= htmlspecialchars($_SERVER['SERVER_NAME'] ) ?>/img/louis-marie.jpg">
     <meta property="og:image:alt" content="Louis-Marie Matthews">
