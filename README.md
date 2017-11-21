@@ -8,3 +8,4 @@
  * optimised images
  * specify CSS's version
  * licenses and copyrights
+ * include css and js in page
