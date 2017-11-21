@@ -27,4 +27,9 @@ class AmpHomeHtmlView extends TemplateHtmlView
 </html>
 <?php
     }
+
+    public function displayImg(string $attrs): void
+    {
+        echo '<amp-img alt="GitHub" width="auto" height="1.5rem" src="img/github.png">';
+    }
 }

@@ -73,7 +73,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Flipn'Ducks</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" class="logo" src="img/github.png"') ?></a></li>
+          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" src="img/github.png"') ?></a></li>
         </ul>
       </div>
     </header>
@@ -123,7 +123,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Insider Trading</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" class="logo" src="img/github.png"') ?></a></li>
+          <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" src="img/github.png"') ?></a></li>
         </ul>
       </div>
     </header>
@@ -143,7 +143,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Shift-Two</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="http://www.moddb.com/mods/shift-two1"><img alt="ModDB" class="logo" src="img/moddb.png"></a></li>
+          <li class="item"><a class="link" href="http://www.moddb.com/mods/shift-two1"><?php $this->displayImg('alt="ModDB" src="img/moddb.png"') ?>></a></li>
         </ul>
       </div>
     </header>
@@ -193,7 +193,7 @@ class TemplateHtmlView implements IView
 
     public function displayImg(string $attrs): void
     {
-        echo '<img alt="GitHub" class="logo" src="img/github.png">';
+        echo '<img class="logo" '.$attrs.'>';
     }
 
     public function displayYoutubeVideo(string $id): void
