@@ -12,6 +12,7 @@ class AmpHomeHtmlView extends TemplateHtmlView
   <head>
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
     <title>Louis-Marie Matthews's Portfolio</title>
     <link rel="canonical" href="https://<?= htmlspecialchars($_SERVER['SERVER_NAME']) ?>">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -31,5 +32,20 @@ class AmpHomeHtmlView extends TemplateHtmlView
     public function displayImg(string $attrs): void
     {
         echo '<amp-img alt="GitHub" width="auto" height="1.5rem" src="img/github.png">';
+    }
+
+    public function displayYoutubeVideo(string $id): void
+    {
+?>
+<amp-youtube
+  data-videoid="<?= $id ?>"
+  layout="responsive"
+  width="560"
+  height="315">
+  <div fallback>
+    <p>The video could not be loaded.</p>
+  </div>
+</amp-youtube>
+<?php
     }
 }
