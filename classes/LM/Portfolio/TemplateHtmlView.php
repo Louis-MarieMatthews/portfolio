@@ -169,7 +169,6 @@ class TemplateHtmlView implements IView
     public function displayHeadContent(): void
     {
 ?>
-<script async src="https://cdn.ampproject.org/v0.js"></script>
 <meta property="fb:app_id" content="2013357305611860">
 <meta property="og:title" content="Louis-Marie Matthews's Portfolio">
 <meta property="og:determiner" content="">
