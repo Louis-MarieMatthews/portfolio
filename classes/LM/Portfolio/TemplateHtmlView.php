@@ -36,8 +36,8 @@ class TemplateHtmlView implements IView
     <p class="line-container"><em class="emphasised">Hi! I'm <span itemprop="name">Louis-Marie</span>.</em></p>
     <div class="line-container">
       <ul class="links-list -leftaligned">
-          <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie"><?php $this->displayImg('alt="My LinkedIn profile" src="img/In-2C-128px-TM.png"', false) ?></a></li>
-          <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/"><?php $this->displayImg('alt="My Stack Overflow developer story" src="img/so-icon.png"', false) ?></a></li>
+          <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/"><?php $this->displayImg('alt="My LinkedIn profile" src="img/In-2C-128px-TM.png"', false) ?></a></li>
+          <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie"><?php $this->displayImg('alt="My Stack Overflow developer story" src="img/so-icon.png"', false) ?></a></li>
           <li class="item"><a class="link" href="https://github.com/matthewslouismarie"><?php $this->displayImg('alt="My GitHub profile" src="img/GitHub-Mark-120px-plus.png"', false) ?></a></li>
           <li class="item"><a class="link" href="mailto:matthewslouismarie@gmail.com"><?php $this->displayImg('alt="My email address" src="img/logo_gmail_128px.png"', false) ?></a></li>
       </ul>
