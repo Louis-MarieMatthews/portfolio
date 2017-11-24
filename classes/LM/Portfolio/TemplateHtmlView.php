@@ -68,7 +68,7 @@ class TemplateHtmlView implements IView
       </div>
       <p class="line-container">The biggest difficulties for me were to extract the pitch from the voice input and detect pitch patterns to decide if the duck should flip or not.</p>
       <p class="line-container">As it was made using Unity, it works on <span itemprop="operatingSystem">all major platforms</span>.</p>
-      <div class="image-container"><?= $this->displayImg('alt="The demonstration of the game at the quackathon" src="img/quackathon-picture.jpg"', true) ?></div>
+      <div class="image-container"><?= $this->displayImg('alt="The demonstration of the game at the quackathon" src="img/quackathon-picture-2.jpg"', true) ?></div>
     </div>
   </section>
   <section class="project-overview" itemscope itemtype="http://schema.org/SoftwareApplication">
@@ -83,6 +83,7 @@ class TemplateHtmlView implements IView
       <p class="line-container">We developped a <span itemprop="applicationCategory">Google Chrome extension</span> summarising the page's content and extracting the main sections of the page to allow the user to quickly jump to a specific part of the page.</p>
       <p class="line-container">Part of my job included making sure everyone's work would fit together and creating an algorithm to extract the main sections of any page when they do not use ARIA technologies or HTML5.</p>
       <p class="line-container">With a certain degree of precision, the algorithm detects if a section of the page is the main section or the navigation bar based on its place in the page's hierarchy and on the number of elements that do not contain any links.</p>
+      <div class="image-container"><?= $this->displayImg('alt="The extension activated on the BBC website" src="img/cyclop.jpg"', true) ?></div>      
     </div>
   </section>
   <section class="project-overview">
