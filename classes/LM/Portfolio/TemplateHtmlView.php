@@ -24,7 +24,7 @@ class TemplateHtmlView implements IView
 
     public function displayBodyAttrs()
     {
-        echo 'class="page" itemscope itemtype="http://schema.org/CollectionPage"';
+        echo 'class="page-content-container" itemscope itemtype="http://schema.org/CollectionPage"';
     }
 
     public function displayBodyContent()
@@ -147,8 +147,10 @@ class TemplateHtmlView implements IView
     </div>
   </section>
 </main>
-<footer class="content-container">
-  <p class="line-container">Last update: <span itemprop="lastReviewed"><?= $this->getLastModificationTime() ?></span>.</p>
+<footer class="footer">
+  <div class="content-container">
+    <p class="line-container">Last update: <span itemprop="lastReviewed"><?= $this->getLastModificationTime() ?></span>.</p>
+  </div>
 </footer>
 <?php
     }

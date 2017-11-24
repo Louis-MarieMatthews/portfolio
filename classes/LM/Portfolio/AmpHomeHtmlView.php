@@ -22,7 +22,7 @@ class AmpHomeHtmlView extends TemplateHtmlView
     </style>
     <?php parent::displayHeadContent() ?>
   </head>
-  <body>
+  <body class="page-content-container">
     <?php parent::displayBodyContent() ?>
   </body>
 </html>
