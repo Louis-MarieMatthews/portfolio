@@ -148,7 +148,7 @@ class TemplateHtmlView implements IView
   </section>
 </main>
 <footer class="content-container">
-  <p class="line-container">Last update: <span itemprop="lastReviewed"><?= date(\DateTime::ATOM, filemtime(__FILE__)) ?></span>.</p>
+  <p class="line-container">Last update: <span itemprop="lastReviewed"><?= $this->getLastModificationTime() ?></span>.</p>
 </footer>
 <?php
     }
@@ -190,5 +190,16 @@ class TemplateHtmlView implements IView
     public function displayYoutubeVideo(string $id): void
     {
         echo '<iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/'.$id.'?rel=0" allowfullscreen></iframe>';
+    }
+
+    /**
+     * @link https://stackoverflow.com/a/20289096/7089212
+     */
+    public function getLastModificationTime(): string
+    {
+        $tz = 'Europe/London';
+        $dt = new \DateTime("now", new \DateTimeZone($tz)); //first argument "must" be a string
+        $dt->setTimestamp(filemtime(__FILE__)); //adjust the object to correct timestamp
+        return $dt->format(\DateTime::ATOM);
     }
 }
