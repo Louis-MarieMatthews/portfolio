@@ -32,7 +32,7 @@ class AmpHomeHtmlView extends TemplateHtmlView
     public function displayImg(string $attrs, bool $allWidth = false): void
     {
       if ($allWidth) {
-          echo '<amp-img layout="responsive" width="2048" height="1831" '.$attrs.'>';
+          echo '<amp-img layout="responsive" width="1920" height="1080" '.$attrs.'>';
       } else {
           echo '<amp-img width="30" height="30" '.$attrs.'>';
       }
