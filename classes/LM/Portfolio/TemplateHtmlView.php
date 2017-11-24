@@ -61,6 +61,11 @@ class TemplateHtmlView implements IView
       <p class="line-container">We were a team of four.</p>
       <p class="line-container">Our challenge was to make a <span itemprop="applicationCategory">game</span> controlled by the player's voice in 24 hours.</p>
       <p class="line-container" itemprop="description">The loudest the player, the higher the duck jumps (to collect items or avoid obstacles). To flip, the player must make a very precise pitch.</p>
+      <div class="media-container">      
+        <div class="video-wrapper">
+          <?php $this->displayYoutubeVideo('rdyPoRhdihA') ?>
+        </div>
+      </div>
       <p class="line-container">The biggest difficulties for me were to extract the pitch from the voice input and detect pitch patterns to decide if the duck should flip or not.</p>
       <p class="line-container">As it was made using Unity, it works on <span itemprop="operatingSystem">all major platforms</span>.</p>
       <div class="image-container"><?= $this->displayImg('alt="The demonstration of the game at the quackathon" src="img/quackathon-picture.jpg"', true) ?></div>
