@@ -14,7 +14,7 @@ use LM\Portfolio\VersionController;
 define('PORTFOLIO_ROOT', __DIR__);
 
 $routes_config = array(
-    '/\A\Z/' => new HomeController(),
+    '/\A\/\Z/' => new HomeController(),
     '/\A\/amg\Z/' => new AmpHomeController(),
     '/\A\/([a-z]+\/)*[a-z0-9]+\.[0-9]+(\.[a-z]+)*\Z/' => new VersionController(),
 );
