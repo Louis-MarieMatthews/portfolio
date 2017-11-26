@@ -5,7 +5,7 @@ namespace LM\Portfolio;
 use LM\WebFramework\Controller\IPageController;
 use LM\WebFramework\Request\IPostRequest;
 use LM\WebFramework\Request\IRequest;
-use LM\WebFramework\Request\UriBuilder;
+use LM\WebFramework\Routing\UriBuilder;
 
 class AmpHomeController implements IPageController
 {
