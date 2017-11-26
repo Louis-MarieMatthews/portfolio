@@ -7,6 +7,7 @@ use LM\WebFramework\Routing\CustomizableRouter;
 use LM\Portfolio\AmpHomeController;
 use LM\Portfolio\HomeController;
 use LM\Portfolio\VersionController;
+use LM\Portfolio\NoPageFoundController;
 
 /**
  * @todo don't use constant, use a service
@@ -17,6 +18,7 @@ $routes_config = array(
     '/\A\/\Z/' => new HomeController(),
     '/\A\/amg\Z/' => new AmpHomeController(),
     '/\A\/([a-z]+\/)*[a-z0-9]+\.[0-9]+(\.[a-z]+)*\Z/' => new VersionController(),
+    '/\A.*\Z/' => new NoPageFoundController(),
 );
 
 $router = new CustomizableRouter($routes_config);
