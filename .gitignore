@@ -6,3 +6,4 @@ Thumbs.db
 *.min.css
 *.min.css.map
 *.min.js
+/uri_builder_config.json

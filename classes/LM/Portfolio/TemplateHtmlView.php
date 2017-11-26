@@ -2,6 +2,7 @@
 
 namespace LM\Portfolio;
 
+use LM\WebFramework\Routing\UriBuilder;
 use LM\WebFramework\View\IView;
 
 class TemplateHtmlView implements IView
@@ -36,10 +37,10 @@ class TemplateHtmlView implements IView
     <p class="line-container"><em class="emphasised">Hi! I'm <span itemprop="name">Louis-Marie</span>.</em></p>
     <div class="line-container">
       <ul class="links-list -leftaligned">
-          <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/"><?php $this->displayImg('alt="My LinkedIn profile" src="img/In-2C-128px-TM.png"', false) ?></a></li>
-          <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie"><?php $this->displayImg('alt="My Stack Overflow developer story" src="img/so-icon.png"', false) ?></a></li>
-          <li class="item"><a class="link" href="https://github.com/matthewslouismarie"><?php $this->displayImg('alt="My GitHub profile" src="img/GitHub-Mark-120px-plus.png"', false) ?></a></li>
-          <li class="item"><a class="link" href="mailto:matthewslouismarie@gmail.com"><?php $this->displayImg('alt="My email address" src="img/logo_gmail_128px.png"', false) ?></a></li>
+          <li class="item"><a class="link" href="https://www.linkedin.com/in/matthewslouismarie/"><?php $this->displayImg('alt="My LinkedIn profile" src="'.$this->getVersionedUri('img/linkedin', '.png').'"', false) ?></a></li>
+          <li class="item"><a class="link" href="https://stackoverflow.com/story/matthewslouismarie"><?php $this->displayImg('alt="My Stack Overflow developer story" src="'.$this->getVersionedUri('img/stackoverflow', '.png').'"', false) ?></a></li>
+          <li class="item"><a class="link" href="https://github.com/matthewslouismarie"><?php $this->displayImg('alt="My GitHub profile" src="'.$this->getVersionedUri('img/githubblack', '.png').'"', false) ?></a></li>
+          <li class="item"><a class="link" href="mailto:matthewslouismarie@gmail.com"><?php $this->displayImg('alt="My email address" src="'.$this->getVersionedUri('img/gmail', '.png').'"', false) ?></a></li>
       </ul>
     </div>
     <p class="line-container">I'm a student at the <span itemprop="memberOf" itemscope itemtype="http://schema.org/CollegeOrUniversity"><span itemprop="name">University of Dundee</span></span>.</p>
@@ -53,7 +54,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Flipn'Ducks</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" src="img/github.png"', false) ?></a></li>
+          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" src="'.$this->getVersionedUri('img/githubwhite', '.png').'"', false) ?></a></li>
         </ul>
       </div>
     </header>
@@ -68,7 +69,7 @@ class TemplateHtmlView implements IView
       </div>
       <p class="line-container">The biggest difficulties for me were to extract the pitch from the voice input and detect pitch patterns to decide if the duck should flip or not.</p>
       <p class="line-container">As it was made using Unity, it works on <span itemprop="operatingSystem">all major platforms</span>.</p>
-      <div class="image-container"><?= $this->displayImg('alt="The demonstration of the game at the quackathon" src="img/quackathon-picture-2.jpg"', true) ?></div>
+      <div class="image-container"><?= $this->displayImg('alt="The demonstration of the game at the quackathon" src="'.$this->getVersionedUri('img/quackathonpicture', '.jpg').'"', true) ?></div>
     </div>
   </section>
   <section class="project-overview" itemscope itemtype="http://schema.org/SoftwareApplication">
@@ -83,7 +84,7 @@ class TemplateHtmlView implements IView
       <p class="line-container">We developped a <span itemprop="applicationCategory">Google Chrome extension</span> summarising the page's content and extracting the main sections of the page to allow the user to quickly jump to a specific part of the page.</p>
       <p class="line-container">Part of my job included making sure everyone's work would fit together and creating an algorithm to extract the main sections of any page when they do not use ARIA technologies or HTML5.</p>
       <p class="line-container">With a certain degree of precision, the algorithm detects if a section of the page is the main section or the navigation bar based on its place in the page's hierarchy and on the number of elements that do not contain any links.</p>
-      <div class="image-container"><?= $this->displayImg('alt="The extension activated on the BBC website" src="img/cyclop.jpg"', true) ?></div>      
+      <div class="image-container"><?= $this->displayImg('alt="The extension activated on the BBC website" src="'.$this->getVersionedUri('img/cyclop', '.jpg').'"', true) ?></div>      
     </div>
   </section>
   <section class="project-overview">
@@ -110,7 +111,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Insider Trading</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" src="img/github.png"') ?></a></li>
+          <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading" itemprop="http://schema.org/downloadUrl"><?php $this->displayImg('alt="GitHub" src="'.$this->getVersionedUri('img/githubwhite', '.png').'"') ?></a></li>
         </ul>
       </div>
     </header>
@@ -130,7 +131,7 @@ class TemplateHtmlView implements IView
       <div class="content">
         <h2 class="title" itemprop="name">Shift-Two</h2>
         <ul class="links-list">
-          <li class="item"><a class="link" href="http://www.moddb.com/mods/shift-two1"><?php $this->displayImg('alt="ModDB" src="img/moddb.png"') ?></a></li>
+          <li class="item"><a class="link" href="http://www.moddb.com/mods/shift-two1"><?php $this->displayImg('alt="ModDB" src="'.$this->getVersionedUri('img/moddb', '.png').'"') ?></a></li>
         </ul>
       </div>
     </header>
@@ -164,13 +165,13 @@ class TemplateHtmlView implements IView
 <meta property="og:locale" content="en_GB">
 <meta property="og:type" content="profile">
 <meta property="og:description" content="My portfolio. I am a computing student at the University of Dundee.">
-<meta property="og:image" content="https://<?= htmlspecialchars($_SERVER['SERVER_NAME'] ) ?>/img/louis-marie.jpg">
+<meta property="og:image" content="<?= $this->getVersionedUri('louismarie', '.jpg') ?>">
 <meta property="og:image:alt" content="Louis-Marie Matthews">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:url" content="https://<?= htmlspecialchars($_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']) ?>">
-<link rel="icon" href="img/favicon.ico">
+<link rel="icon" href="<?= $this->getVersionedUri('img/favicon', '.ico') ?>">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
 <?php
     }
@@ -203,5 +204,30 @@ class TemplateHtmlView implements IView
         $dt = new \DateTime("now", new \DateTimeZone($tz)); //first argument "must" be a string
         $dt->setTimestamp(filemtime(__FILE__)); //adjust the object to correct timestamp
         return $dt->format(\DateTime::ATOM);
+    }
+
+    /**
+     * @todo spaghetti code
+     */
+    public function getVersionedCss(string $title): string
+    {
+        $uri_builder = new UriBuilder('uri_builder_config.json');
+        return $uri_builder->getUri($title).'.'.filemtime(PORTFOLIO_ROOT.'/'.$title.'.min.css').'.min.css';
+    }
+
+    /**
+     * @todo spaghetti code
+     * @todo uri builder should be a service
+     */
+    public function getVersionedImg(string $title): string
+    {
+        $uri_builder = new UriBuilder('uri_builder_config.json');
+        return $uri_builder->getUri($title).'.'.filemtime(PORTFOLIO_ROOT.'/'.$title.'.min.css').'.min.css';
+    }
+
+    public function getVersionedUri(string $first_part, string $extension): string
+    {
+        $uri_builder = new UriBuilder('uri_builder_config.json');
+        return $uri_builder->getUri($first_part.'.'.filemtime(PORTFOLIO_ROOT.'/'.$first_part.$extension).$extension);
     }
 }

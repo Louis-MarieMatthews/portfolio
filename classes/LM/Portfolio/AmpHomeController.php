@@ -3,16 +3,19 @@
 namespace LM\Portfolio;
 
 use LM\WebFramework\Controller\IPageController;
+use LM\WebFramework\Request\IPostRequest;
+use LM\WebFramework\Request\IRequest;
+use LM\WebFramework\Request\UriBuilder;
 
 class AmpHomeController implements IPageController
 {
-    public function doGet(): void
+    public function doGet(IRequest $request): void
     {
         $view = new AmpHomeHtmlView();
         $view->display();
     }
 
-    public function doPost(array $post_data): void
+    public function doPost(IPostRequest $post_data): void
     {
 
     }
