@@ -16,11 +16,21 @@ class VersionController implements IPageController
         for ($i = 2; $i < count($uri_parameters); $i++) {
             $filename .= '.'.$uri_parameters[$i];
         }
-        header('content-type: '.mime_content_type($filename));
+        $extension = $uri_parameters[count($uri_parameters) - 1];
+        header('content-type: '.$this->getMimeType($filename, $extension));
         echo file_get_contents($filename);
     }
 
 	public function doPost(IPostRequest $postData): void
     {
+    }
+
+    private function getMimeType(string $filename, string $extension): string
+    {
+        $mime_type = mime_content_type($filename);
+        if ('text/plain' === $mime_type && 'css' === $extension) {
+            return 'text/css';
+        }
+        return $mime_type;
     }
 }
