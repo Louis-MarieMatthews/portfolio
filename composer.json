@@ -2,7 +2,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "C:\\Users\\louis_000\\fichiers_pas_a_garder\\lm-web-framework"
+            "url": "https://github.com/matthewslouismarie/lm-web-framework"
         }
     ],
     "require": {
