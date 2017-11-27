@@ -2,4 +2,9 @@
   @extend .line-container;
   padding-left: $important-padding;
   padding-right: $important-padding;
+
+  > .logo {
+    width: 100%;
+    height: auto;
+  }
 }
