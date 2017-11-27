@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "18f08d5d90cbb2b80543e1802161defd",
+    "content-hash": "20c9a436b476ae2432115bf624e62a36",
     "packages": [
         {
             "name": "matthewslouismarie/lm-web-framework",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "C:\\Users\\louis_000\\fichiers_pas_a_garder\\lm-web-framework",
-                "reference": "f3221d0904c06f6de11691e023734097ef50d736"
+                "reference": "4145793ddde642f8f41ebe87def48405b78e1ced"
             },
             "type": "library",
             "autoload": {
@@ -20,7 +20,7 @@
                     "LM\\": "classes/LM/"
                 }
             },
-            "time": "2017-11-26 21:45:06"
+            "time": "2017-11-27 00:33:02"
         }
     ],
     "packages-dev": [],
