@@ -165,7 +165,7 @@ class TemplateHtmlView implements IView
 <meta property="og:locale" content="en_GB">
 <meta property="og:type" content="profile">
 <meta property="og:description" content="My portfolio. I am a computing student at the University of Dundee.">
-<meta property="og:image" content="<?= $this->getVersionedUri('louismarie', '.jpg') ?>">
+<meta property="og:image" content="<?= $this->getVersionedUri('img/louismarie', '.jpg') ?>">
 <meta property="og:image:alt" content="Louis-Marie Matthews">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
@@ -184,7 +184,7 @@ class TemplateHtmlView implements IView
     public function displayImg(string $attrs, bool $allWidth = false): void
     {
         if ($allWidth) {
-            echo '<img class="logo" '.$attrs.' width="100%" height="auto">';
+            echo '<img class="logo" '.$attrs.'>';
         } else {
             echo '<img class="logo" '.$attrs.'>';
         }
