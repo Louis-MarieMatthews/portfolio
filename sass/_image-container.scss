@@ -1,10 +1,14 @@
 .image-container {
-  @extend .line-container;
   padding-left: $important-padding;
   padding-right: $important-padding;
+  font-size: $text-font-size;
 
   > .logo {
     width: 100%;
     height: auto;
+  }
+  
+  @media (min-width: $screen-sm-min) {
+    font-size: $text-font-size-sm;
   }
 }
