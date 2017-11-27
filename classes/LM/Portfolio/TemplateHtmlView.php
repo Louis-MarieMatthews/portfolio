@@ -206,25 +206,6 @@ class TemplateHtmlView implements IView
         return $dt->format(\DateTime::ATOM);
     }
 
-    /**
-     * @todo spaghetti code
-     */
-    public function getVersionedCss(string $title): string
-    {
-        $uri_builder = new UriBuilder('uri_builder_config.json');
-        return $uri_builder->getUri($title).'.'.filemtime(PORTFOLIO_ROOT.'/'.$title.'.min.css').'.min.css';
-    }
-
-    /**
-     * @todo spaghetti code
-     * @todo uri builder should be a service
-     */
-    public function getVersionedImg(string $title): string
-    {
-        $uri_builder = new UriBuilder('uri_builder_config.json');
-        return $uri_builder->getUri($title).'.'.filemtime(PORTFOLIO_ROOT.'/'.$title.'.min.css').'.min.css';
-    }
-
     public function getVersionedUri(string $first_part, string $extension): string
     {
         $uri_builder = new UriBuilder('uri_builder_config.json');

@@ -13,7 +13,7 @@ class HomeHtmlView extends TemplateHtmlView
     <meta charset="utf-8">
     <title>Louis-Marie Matthews's Portfolio</title>
     <link rel="amphtml" href="https://<?= htmlspecialchars($_SERVER['SERVER_NAME']) ?>/amp">
-    <link rel="stylesheet" href="<?= $this->getVersionedCss('/style') ?>">
+    <link rel="stylesheet" href="<?= $this->getVersionedUri('/style', '.min.css') ?>">
     <?php $this->displayHeadContent() ?>
   </head>
   <body <?php $this->displayBodyAttrs() ?>>
