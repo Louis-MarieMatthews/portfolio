@@ -4,6 +4,8 @@ require_once 'vendor/autoload.php';
 
 use LM\WebFramework\Routing\UriBuilder;
 
+exec('grunt sass');
+
 version_resources('style.min.css');
 version_resources('amp-style.min.css');
 
