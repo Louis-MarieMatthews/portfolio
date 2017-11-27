@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "C:\\Users\\louis_000\\fichiers_pas_a_garder\\lm-web-framework",
-                "reference": "4145793ddde642f8f41ebe87def48405b78e1ced"
+                "reference": "eefd94c450a9f90e280662716c2b2811e0906c00"
             },
             "type": "library",
             "autoload": {
@@ -20,7 +20,7 @@
                     "LM\\": "classes/LM/"
                 }
             },
-            "time": "2017-11-27 00:33:02"
+            "time": "2017-11-27 00:56:22"
         }
     ],
     "packages-dev": [],
