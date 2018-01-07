@@ -31,6 +31,16 @@ class TemplateHtmlView implements IView
     public function displayBodyContent()
     {
 ?>
+<nav class="main-navbar">
+  <ul class="list">
+    <li class="item">
+      <a class="link -current">Portfolio</a>
+    </li>
+    <li class="item">
+      <a class="link -active" href="https://matthewslouismarie.fr/blog">Blog</a>
+    </li>
+  </ul>
+</nav>
 <header itemscope itemprop="author" itemtype="http://schema.org/Person">
   <h1 class="page-title">Who am I?</h1>
   <div class="content-container">
