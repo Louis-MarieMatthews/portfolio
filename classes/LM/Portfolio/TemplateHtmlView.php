@@ -62,9 +62,11 @@ class TemplateHtmlView implements IView
       <p class="line-container">We were a team of four.</p>
       <p class="line-container">Our challenge was to make a <span itemprop="applicationCategory">game</span> controlled by the player's voice in 24 hours.</p>
       <p class="line-container" itemprop="description">The loudest the player, the higher the duck jumps (to collect items or avoid obstacles). To flip, the player must make a very precise pitch.</p>
-      <div class="media-container">      
-        <div class="video-wrapper">
-          <?php $this->displayYoutubeVideo('rdyPoRhdihA') ?>
+      <div class="line-container">
+        <div class="media-container">      
+          <div class="video-wrapper">
+            <?php $this->displayYoutubeVideo('rdyPoRhdihA') ?>
+          </div>
         </div>
       </div>
       <p class="line-container">The biggest difficulties for me were to extract the pitch from the voice input and detect pitch patterns to decide if the duck should flip or not.</p>
@@ -119,9 +121,11 @@ class TemplateHtmlView implements IView
       <p class="line-container">This is the <span itemprop="applicationCategory">2D game</span> I had to make as part of the Games Programming's module assignment in second year.</p>
       <p class="line-container">I taught myself C++ instead of Unity as I thought the former is more useful to know.</p>
       <p class="line-container">Because it uses Allegro it can run on <span itemprop="operatingSystem">all major platforms</span>.</p>
-      <div class="media-container">      
-        <div class="video-wrapper">
-          <?php $this->displayYoutubeVideo('-8LdjKoZM4s') ?>
+      <div class="line-container">
+        <div class="media-container">      
+          <div class="video-wrapper">
+            <?php $this->displayYoutubeVideo('-8LdjKoZM4s') ?>
+          </div>
         </div>
       </div>
     </div>
@@ -140,9 +144,11 @@ class TemplateHtmlView implements IView
       <p class="line-container">I taught myself HTML, CSS, but more importantly 3D modelling.</p>
       <p class="line-container">The technology used being old, poorly documented, and closed-source, I also gained a lot of experience in learning through trial-and-errors and not rely on community support and documentation.</p>
       <p class="line-container">The game is rated <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">7</span>/<span itemprop="bestRating">10</span> out of <span itemprop="ratingCount">57</span> reviews</span> on ModDB.</p>
-      <div class="media-container">
-        <div class="video-wrapper">
-          <?php $this->displayYoutubeVideo('Nl5L2lhoPA4') ?>
+      <div class="line-container">
+        <div class="media-container">
+          <div class="video-wrapper">
+            <?php $this->displayYoutubeVideo('Nl5L2lhoPA4') ?>
+          </div>
         </div>
       </div>
     </div>
