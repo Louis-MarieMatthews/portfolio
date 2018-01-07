@@ -1,7 +1,5 @@
 .main-navbar {
-  background-color: #000000;
   text-align: center;
-  position: absolute;
   top: 0;
   width: 100%;
 
@@ -12,7 +10,7 @@
   }
 
   > .list > .item > .link {
-    color: #ffffff;
+    color: #000000;
     font-family: $font-family;
     font-size: $text-font-size-sm;
   }
